@@ -1,13 +1,23 @@
-let DATA = { nomeacoes: [], vacancias: [], semEfeito: [], impacto: null };
+let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null };
+let CARGO = 'FC'; // 'FC' or 'PO'
 
 async function loadData() {
-  const [nomeacoes, vacancias, semEfeito, impacto] = await Promise.all([
+  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto] = await Promise.all([
     fetch('data/nomeacoes.json').then(r => r.json()),
+    fetch('data/nomeacoes-po.json').then(r => r.json()),
     fetch('data/vacancias.json').then(r => r.json()),
     fetch('data/sem-efeito.json').then(r => r.json()),
     fetch('data/impacto.json').then(r => r.json()),
   ]);
-  DATA = { nomeacoes, vacancias, semEfeito, impacto };
+  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto };
+}
+
+function currentNomeacoes() {
+  return CARGO === 'FC' ? DATA.nomeacoesFc : DATA.nomeacoesPo;
+}
+
+function cargoLabel() {
+  return CARGO === 'FC' ? 'Finanças e Controle' : 'Planejamento e Orçamento';
 }
 
 function setupTabs() {
@@ -21,11 +31,28 @@ function setupTabs() {
   });
 }
 
+function renderCargoSwitch(containerId, onChange) {
+  const el = document.getElementById(containerId);
+  el.innerHTML = `
+    <button class="cargo-btn ${CARGO === 'FC' ? 'active' : ''}" data-cargo="FC">Finanças e Controle</button>
+    <button class="cargo-btn ${CARGO === 'PO' ? 'active' : ''}" data-cargo="PO">Planejamento e Orçamento</button>
+  `;
+  el.querySelectorAll('.cargo-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      CARGO = btn.dataset.cargo;
+      document.querySelectorAll('.cargo-switch').forEach(sw => {
+        sw.querySelectorAll('.cargo-btn').forEach(b => b.classList.toggle('active', b.dataset.cargo === CARGO));
+      });
+      onChange();
+    });
+  });
+}
+
 function situacaoBadge(situacao) {
   if (!situacao) return '<span class="badge badge-neutro">—</span>';
   const s = situacao.toUpperCase();
   if (s === 'SIM') return '<span class="badge badge-sim">SIM</span>';
-  if (s === 'FIM DE FILA') return '<span class="badge badge-fimfila">FIM DE FILA</span>';
+  if (s === 'FIM DE FILA' || s === 'FINAL DE FILA' || s === 'FINAL DE FILA*') return `<span class="badge badge-fimfila">${situacao}</span>`;
   if (['EXONERAÇÃO', 'DESISTÊNCIA', 'DESISTIU DO PROCESSO', 'SUBJUDICE'].includes(s))
     return `<span class="badge badge-negativo">${situacao}</span>`;
   return `<span class="badge badge-neutro">${situacao}</span>`;
@@ -42,16 +69,19 @@ function fillSelect(select, values, allLabel) {
 
 // ---------- Resumo ----------
 function renderResumo() {
-  const total = DATA.nomeacoes.length;
-  const nomeados = DATA.nomeacoes.filter(n => n.situacao === 'SIM').length;
-  const fimDeFila = DATA.nomeacoes.filter(n => n.situacao === 'FIM DE FILA').length;
+  const nomeacoes = currentNomeacoes();
+  const total = nomeacoes.length;
+  const nomeados = nomeacoes.filter(n => n.situacao === 'SIM').length;
+  const fimDeFila = nomeacoes.filter(n => n.situacao && n.situacao.toUpperCase().includes('FIM DE FILA') || n.situacao && n.situacao.toUpperCase().includes('FINAL DE FILA')).length;
+  const aprovadosANomear = nomeacoes.filter(n => !n.situacao || !String(n.situacao).trim()).length;
   const semEfeito = DATA.semEfeito.length;
   const vacancias = DATA.vacancias.length;
   const remanescentes = DATA.impacto.nomeacoesRemanescentes;
 
   const cards = [
-    { label: 'Total de candidatos', value: total },
+    { label: `Total de candidatos (${cargoLabel()})`, value: total },
     { label: 'Nomeados (SIM)', value: nomeados },
+    { label: 'Aprovados a nomear', value: aprovadosANomear },
     { label: 'Fim de fila', value: fimDeFila },
     { label: 'Tornados sem efeito', value: semEfeito },
     { label: 'Vacâncias registradas', value: vacancias },
@@ -65,8 +95,8 @@ function renderResumo() {
 
   // Situação chart
   const situacaoCounts = {};
-  DATA.nomeacoes.forEach(n => {
-    const key = n.situacao || 'Sem informação';
+  nomeacoes.forEach(n => {
+    const key = (n.situacao && String(n.situacao).trim()) || 'Aprovados a nomear';
     situacaoCounts[key] = (situacaoCounts[key] || 0) + 1;
   });
   const maxSit = Math.max(...Object.values(situacaoCounts));
@@ -96,24 +126,37 @@ function renderResumo() {
 
 // ---------- Ordem de Nomeação ----------
 function renderNomeacaoFilters() {
+  const nomeacoes = currentNomeacoes();
   const el = document.getElementById('nomeacao-filters');
-  el.innerHTML = `
-    <input type="text" id="f-nome" placeholder="Buscar por nome ou inscrição...">
-    <select id="f-tipoVaga"></select>
-    <select id="f-situacao"></select>
-    <select id="f-cgdfPo"></select>
-    <select id="f-tcdfTcu"></select>
-    <select id="f-senadoCamara"></select>
-    <select id="f-observacao"></select>
-    <button id="f-clear">Limpar filtros</button>
-    <button id="f-export" class="primary">Exportar CSV</button>
-  `;
-  fillSelect(document.getElementById('f-tipoVaga'), uniqueValues(DATA.nomeacoes, 'tipoVaga'), 'Tipo de vaga');
-  fillSelect(document.getElementById('f-situacao'), uniqueValues(DATA.nomeacoes, 'situacao'), 'Situação');
-  fillSelect(document.getElementById('f-cgdfPo'), uniqueValues(DATA.nomeacoes, 'cgdfPo'), 'CGDF-PO');
-  fillSelect(document.getElementById('f-tcdfTcu'), uniqueValues(DATA.nomeacoes, 'tcdfTcu'), 'TCDF/TCU');
-  fillSelect(document.getElementById('f-senadoCamara'), uniqueValues(DATA.nomeacoes, 'senadoCamara'), 'Senado/Câmara/RFB');
-  fillSelect(document.getElementById('f-observacao'), uniqueValues(DATA.nomeacoes, 'observacao'), 'Observação');
+  if (CARGO === 'FC') {
+    el.innerHTML = `
+      <input type="text" id="f-nome" placeholder="Buscar por nome ou inscrição...">
+      <select id="f-tipoVaga"></select>
+      <select id="f-situacao"></select>
+      <select id="f-cgdfPo"></select>
+      <select id="f-tcdfTcu"></select>
+      <select id="f-senadoCamara"></select>
+      <select id="f-observacao"></select>
+      <button id="f-clear">Limpar filtros</button>
+      <button id="f-export" class="primary">Exportar CSV</button>
+    `;
+    fillSelect(document.getElementById('f-tipoVaga'), uniqueValues(nomeacoes, 'tipoVaga'), 'Tipo de vaga');
+    fillSelect(document.getElementById('f-situacao'), uniqueValues(nomeacoes, 'situacao'), 'Situação');
+    fillSelect(document.getElementById('f-cgdfPo'), uniqueValues(nomeacoes, 'cgdfPo'), 'CGDF-PO');
+    fillSelect(document.getElementById('f-tcdfTcu'), uniqueValues(nomeacoes, 'tcdfTcu'), 'TCDF/TCU');
+    fillSelect(document.getElementById('f-senadoCamara'), uniqueValues(nomeacoes, 'senadoCamara'), 'Senado/Câmara/RFB');
+    fillSelect(document.getElementById('f-observacao'), uniqueValues(nomeacoes, 'observacao'), 'Observação');
+  } else {
+    el.innerHTML = `
+      <input type="text" id="f-nome" placeholder="Buscar por nome ou inscrição...">
+      <select id="f-tipoVaga"></select>
+      <select id="f-situacao"></select>
+      <button id="f-clear">Limpar filtros</button>
+      <button id="f-export" class="primary">Exportar CSV</button>
+    `;
+    fillSelect(document.getElementById('f-tipoVaga'), uniqueValues(nomeacoes, 'tipoVaga'), 'Tipo de vaga');
+    fillSelect(document.getElementById('f-situacao'), uniqueValues(nomeacoes, 'situacao'), 'Situação');
+  }
 
   el.querySelectorAll('select, input').forEach(input => {
     input.addEventListener('input', renderNomeacaoTable);
@@ -123,26 +166,35 @@ function renderNomeacaoFilters() {
     el.querySelector('input').value = '';
     renderNomeacaoTable();
   });
-  document.getElementById('f-export').addEventListener('click', () => exportCsv(getFilteredNomeacoes(), 'ordem-nomeacao.csv'));
+  document.getElementById('f-export').addEventListener('click', () => exportCsv(getFilteredNomeacoes(), `ordem-nomeacao-${CARGO.toLowerCase()}.csv`));
 }
 
 function getFilteredNomeacoes() {
+  const nomeacoes = currentNomeacoes();
   const nome = document.getElementById('f-nome').value.toLowerCase();
   const tipoVaga = document.getElementById('f-tipoVaga').value;
   const situacao = document.getElementById('f-situacao').value;
-  const cgdfPo = document.getElementById('f-cgdfPo').value;
-  const tcdfTcu = document.getElementById('f-tcdfTcu').value;
-  const senadoCamara = document.getElementById('f-senadoCamara').value;
-  const observacao = document.getElementById('f-observacao').value;
 
-  return DATA.nomeacoes.filter(n => {
-    if (nome && !n.nome.toLowerCase().includes(nome) && !n.inscricao.includes(nome)) return false;
+  if (CARGO === 'FC') {
+    const cgdfPo = document.getElementById('f-cgdfPo').value;
+    const tcdfTcu = document.getElementById('f-tcdfTcu').value;
+    const senadoCamara = document.getElementById('f-senadoCamara').value;
+    const observacao = document.getElementById('f-observacao').value;
+    return nomeacoes.filter(n => {
+      if (nome && !n.nome.toLowerCase().includes(nome) && !n.inscricao.includes(nome)) return false;
+      if (tipoVaga && n.tipoVaga !== tipoVaga) return false;
+      if (situacao && n.situacao !== situacao) return false;
+      if (cgdfPo && n.cgdfPo !== cgdfPo) return false;
+      if (tcdfTcu && n.tcdfTcu !== tcdfTcu) return false;
+      if (senadoCamara && n.senadoCamara !== senadoCamara) return false;
+      if (observacao && n.observacao !== observacao) return false;
+      return true;
+    });
+  }
+  return nomeacoes.filter(n => {
+    if (nome && !n.nome.toLowerCase().includes(nome) && !String(n.inscricao).includes(nome)) return false;
     if (tipoVaga && n.tipoVaga !== tipoVaga) return false;
     if (situacao && n.situacao !== situacao) return false;
-    if (cgdfPo && n.cgdfPo !== cgdfPo) return false;
-    if (tcdfTcu && n.tcdfTcu !== tcdfTcu) return false;
-    if (senadoCamara && n.senadoCamara !== senadoCamara) return false;
-    if (observacao && n.observacao !== observacao) return false;
     return true;
   });
 }
@@ -150,24 +202,49 @@ function getFilteredNomeacoes() {
 function renderNomeacaoTable() {
   const filtered = getFilteredNomeacoes();
   document.getElementById('nomeacao-count').textContent =
-    `${filtered.length} de ${DATA.nomeacoes.length} candidatos exibidos`;
-  const tbody = document.querySelector('#nomeacao-table tbody');
-  tbody.innerHTML = filtered.map((n, i) => `
-    <tr>
-      <td>${i + 1}</td>
-      <td>${n.ordem}</td>
-      <td>${n.tipoVaga}</td>
-      <td>${n.classTipo}</td>
-      <td>${n.inscricao}</td>
-      <td>${n.nome}</td>
-      <td>${n.pontuacao.toFixed(2)}</td>
-      <td>${situacaoBadge(n.situacao)}</td>
-      <td>${n.subjudice || '—'}</td>
-      <td>${n.cgdfPo || '—'}</td>
-      <td>${n.tcdfTcu || '—'}</td>
-      <td>${n.senadoCamara || '—'}</td>
-      <td>${n.observacao || '—'}</td>
-    </tr>`).join('');
+    `${filtered.length} de ${currentNomeacoes().length} candidatos exibidos (${cargoLabel()})`;
+
+  const tableFc = document.getElementById('nomeacao-table-fc');
+  const tablePo = document.getElementById('nomeacao-table-po');
+
+  if (CARGO === 'FC') {
+    tableFc.style.display = '';
+    tablePo.style.display = 'none';
+    const tbody = tableFc.querySelector('tbody');
+    tbody.innerHTML = filtered.map((n, i) => `
+      <tr>
+        <td>${i + 1}</td>
+        <td>${n.ordem}</td>
+        <td>${n.tipoVaga}</td>
+        <td>${n.classTipo}</td>
+        <td>${n.inscricao}</td>
+        <td>${n.nome}</td>
+        <td>${n.pontuacao.toFixed(2)}</td>
+        <td>${situacaoBadge(n.situacao)}</td>
+        <td>${n.subjudice || '—'}</td>
+        <td>${n.cgdfPo || '—'}</td>
+        <td>${n.tcdfTcu || '—'}</td>
+        <td>${n.senadoCamara || '—'}</td>
+        <td>${n.observacao || '—'}</td>
+      </tr>`).join('');
+  } else {
+    tableFc.style.display = 'none';
+    tablePo.style.display = '';
+    const tbody = tablePo.querySelector('tbody');
+    tbody.innerHTML = filtered.map((n, i) => `
+      <tr>
+        <td>${i + 1}</td>
+        <td>${n.ordem ?? '—'}</td>
+        <td>${n.tipoVaga || '—'}</td>
+        <td>${n.inscricao}</td>
+        <td>${n.nome}</td>
+        <td>${n.notaAntesCF ?? '—'}</td>
+        <td>${n.notaCF ?? '—'}</td>
+        <td>${n.notaFinal ?? '—'}</td>
+        <td>${situacaoBadge(n.situacao)}</td>
+        <td>${n.observacao || '—'}</td>
+      </tr>`).join('');
+  }
 }
 
 // ---------- Vacâncias ----------
@@ -330,9 +407,17 @@ function exportCsv(rows, filename) {
   URL.revokeObjectURL(url);
 }
 
+function refreshAll() {
+  renderResumo();
+  renderNomeacaoFilters();
+  renderNomeacaoTable();
+}
+
 async function init() {
   await loadData();
   setupTabs();
+  renderCargoSwitch('resumo-cargo-switch', refreshAll);
+  renderCargoSwitch('nomeacao-cargo-switch', refreshAll);
   renderResumo();
   renderNomeacaoFilters();
   renderNomeacaoTable();

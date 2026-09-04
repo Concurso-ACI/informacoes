@@ -8,7 +8,7 @@
 </head>
 <body>
 <header class="topbar">
-  <img class="badge-logo" src="assets/distintivo.jpeg" alt="Distintivo Auditoria de Controle Interno do Distrito Federal">
+  <img class="badge-logo" src="assets/distintivo.png" alt="Distintivo Auditoria de Controle Interno do Distrito Federal">
   <div class="topbar-text">
     <h1>Concurso Auditor de Controle Interno — DF</h1>
     <p class="subtitle">Painel de acompanhamento da ordem de nomeação</p>
@@ -26,6 +26,7 @@
 <main>
 
   <section id="resumo" class="tab-panel active">
+    <div class="cargo-switch" id="resumo-cargo-switch"></div>
     <div class="cards" id="resumo-cards"></div>
     <div class="chart-row">
       <div class="panel-box">
@@ -40,14 +41,23 @@
   </section>
 
   <section id="nomeacao" class="tab-panel">
+    <div class="cargo-switch" id="nomeacao-cargo-switch"></div>
     <div class="filters" id="nomeacao-filters"></div>
     <p class="count-info" id="nomeacao-count"></p>
     <div class="table-wrap">
-      <table id="nomeacao-table">
+      <table id="nomeacao-table-fc">
         <thead><tr>
           <th>#</th><th>Ordem</th><th>Vaga</th><th>Class.</th><th>Inscrição</th>
           <th>Nome</th><th>Pontuação</th><th>Situação</th><th>Subjudice</th>
           <th>CGDF-PO</th><th>TCDF/TCU</th><th>Senado/Câmara</th><th>Observação</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <table id="nomeacao-table-po" style="display:none">
+        <thead><tr>
+          <th>#</th><th>Ordem</th><th>Vaga</th><th>Inscrição</th>
+          <th>Nome</th><th>Nota antes CF</th><th>Nota CF</th><th>Nota final</th>
+          <th>Situação</th><th>Observação</th>
         </tr></thead>
         <tbody></tbody>
       </table>
@@ -86,6 +96,6 @@
 
 </main>
 
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>
