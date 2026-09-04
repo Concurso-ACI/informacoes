@@ -1,0 +1,41 @@
+{
+  "titulo": "RGF 1º quadrimestre 2026",
+  "descricao": "considerando 3 meses restantes do exercício de 2026",
+  "nomeacoesRemanescentes": 121,
+  "base": {
+    "rclAjustada": 40291077155.51,
+    "despesaLiquidaPessoal": 16298140188.23,
+    "percentualDespesaPessoal": 0.40450991482120624,
+    "limiteAlerta": 0.441,
+    "limitePrudencial": 0.4655,
+    "limiteMaximo": 0.49,
+    "folgaLimitePrudencial": 0.060990085178793785
+  },
+  "criterios": "vencimento básico (21.739,90) + gratificações permanentes (112 de curso e 420 de especialização); obrigação patronal de 28% do teto do RGPS (R$ 8.475,55).",
+  "vencimentoGratificacoes": 24011.09,
+  "obrigacaoPatronal": 2373.15,
+  "decimoTerceiroFerias": 0.0,
+  "totalIndividual3Meses": 79152.73,
+  "totalGeral121": 9577480.57,
+  "fonte": "RGF 2026",
+  "resumoQuantitativo": {
+    "cargos": [
+      {
+        "cargo": "Planejamento e Orçamento",
+        "aprovadosNaoNomeados": 15,
+        "duplaAprovacao": 7,
+        "subJudice": 1,
+        "quantitativoLiquido": 7
+      },
+      {
+        "cargo": "Finanças e Controle",
+        "aprovadosNaoNomeados": 142,
+        "duplaAprovacao": "7*",
+        "subJudice": 17,
+        "quantitativoLiquido": 125
+      }
+    ],
+    "total": 132,
+    "obs": "*já excluído no cálculo de PO. Obs: excluídos os aprovados sub judice"
+  }
+}

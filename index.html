@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel Concurso ACI-DF</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <h1>Concurso Auditor de Controle Interno — DF</h1>
+  <p class="subtitle">Painel de acompanhamento da ordem de nomeação</p>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="resumo">Resumo</button>
+  <button class="tab-btn" data-tab="nomeacao">Ordem de Nomeação</button>
+  <button class="tab-btn" data-tab="vacancias">Vacâncias</button>
+  <button class="tab-btn" data-tab="sem-efeito">Sem Efeito</button>
+  <button class="tab-btn" data-tab="impacto">Cálculo de Impacto</button>
+</nav>
+
+<main>
+
+  <section id="resumo" class="tab-panel active">
+    <div class="cards" id="resumo-cards"></div>
+    <div class="chart-row">
+      <div class="panel-box">
+        <h3>Situação das nomeações</h3>
+        <div id="situacao-chart" class="bar-chart"></div>
+      </div>
+      <div class="panel-box">
+        <h3>Vacâncias por ano</h3>
+        <div id="vacancias-chart" class="bar-chart"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nomeacao" class="tab-panel">
+    <div class="filters" id="nomeacao-filters"></div>
+    <p class="count-info" id="nomeacao-count"></p>
+    <div class="table-wrap">
+      <table id="nomeacao-table">
+        <thead><tr>
+          <th>#</th><th>Ordem</th><th>Vaga</th><th>Class.</th><th>Inscrição</th>
+          <th>Nome</th><th>Pontuação</th><th>Situação</th><th>Subjudice</th>
+          <th>CGDF-PO</th><th>TCDF/TCU</th><th>Senado/Câmara</th><th>Observação</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="vacancias" class="tab-panel">
+    <div class="filters" id="vacancias-filters"></div>
+    <p class="count-info" id="vacancias-count"></p>
+    <div class="table-wrap">
+      <table id="vacancias-table">
+        <thead><tr>
+          <th>#</th><th>Ano</th><th>Matrícula</th><th>Nome</th><th>Ato</th><th>Publicação</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="sem-efeito" class="tab-panel">
+    <div class="filters" id="sem-efeito-filters"></div>
+    <p class="count-info" id="sem-efeito-count"></p>
+    <div class="table-wrap">
+      <table id="sem-efeito-table">
+        <thead><tr>
+          <th>#</th><th>Especialidade</th><th>Vaga</th><th>Nome</th><th>Publicação</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="impacto" class="tab-panel">
+    <div id="impacto-content"></div>
+  </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
