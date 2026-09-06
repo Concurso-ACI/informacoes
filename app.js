@@ -371,20 +371,40 @@ function renderSemEfeitoTable() {
 function pct(v) { return (v * 100).toFixed(2) + '%'; }
 function brl(v) { return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }); }
 
+function renderImpactoValues(n) {
+  const d = DATA.impacto;
+  const b = d.base;
+  const totalN = d.totalIndividual3Meses * n;
+  const novoPercentual = (b.despesaLiquidaPessoal + totalN) / b.rclAjustada;
+  const novaFolga = b.limitePrudencial - novoPercentual;
+  const impactoPercentual = totalN / b.rclAjustada;
+
+  document.getElementById('impacto-slider-value').textContent = n;
+  document.getElementById('impacto-dynamic').innerHTML = `
+    <div class="impacto-grid">
+      <div class="card"><div class="value">${brl(totalN)}</div><div class="label">Total geral (${n} nomeaç${n === 1 ? 'ão' : 'ões'})</div></div>
+      <div class="card"><div class="value">${pct(impactoPercentual)}</div><div class="label">Impacto na despesa total com pessoal</div></div>
+      <div class="card"><div class="value">${pct(novoPercentual)}</div><div class="label">Novo % Total da despesa com Pessoal</div></div>
+      <div class="card"><div class="value">${pct(novaFolga)}</div><div class="label">Nova "folga" pro limite prudencial</div></div>
+    </div>
+  `;
+}
+
 function renderImpacto() {
   const d = DATA.impacto;
   const b = d.base;
-  const resumoRows = d.resumoQuantitativo.cargos.map(c => `
-    <tr>
-      <td>${c.cargo}</td>
-      <td>${c.aprovadosNaoNomeados}</td>
-      <td>${c.duplaAprovacao}</td>
-      <td>${c.subJudice}</td>
-      <td>${c.quantitativoLiquido}</td>
-    </tr>`).join('');
 
   document.getElementById('impacto-content').innerHTML = `
-    <p class="impacto-note"><strong>${d.titulo}</strong> — ${d.descricao}. Único valor variável: de 1 a ${d.nomeacoesRemanescentes} nomeações.</p>
+    <p class="impacto-note"><strong>${d.titulo}</strong> — ${d.descricao}.</p>
+
+    <div class="panel-box slider-box">
+      <h3>Simulador de nomeações</h3>
+      <p class="impacto-note">Arraste a régua para simular o impacto orçamentário de acordo com a quantidade de nomeações, dentro do limite de ${d.nomeacoesRemanescentes} autorizações da LDO 2026.</p>
+      <div class="slider-row">
+        <input type="range" id="impacto-slider" min="0" max="${d.nomeacoesRemanescentes}" value="${d.nomeacoesRemanescentes}">
+        <span class="slider-value-badge"><span id="impacto-slider-value">${d.nomeacoesRemanescentes}</span> nomeações</span>
+      </div>
+    </div>
 
     <h3>Base orçamentária</h3>
     <div class="impacto-grid">
@@ -404,22 +424,16 @@ function renderImpacto() {
       <div class="card"><div class="value">${brl(d.obrigacaoPatronal)}</div><div class="label">Obrigação patronal</div></div>
       <div class="card"><div class="value">${brl(d.decimoTerceiroFerias)}</div><div class="label">13º salário + férias</div></div>
       <div class="card"><div class="value">${brl(d.totalIndividual3Meses)}</div><div class="label">Total individual (3 meses)</div></div>
-      <div class="card"><div class="value">${brl(d.totalGeral121)}</div><div class="label">Total geral (${d.nomeacoesRemanescentes} nomeações)</div></div>
     </div>
 
-    <h3>Resumo quantitativo por cargo</h3>
-    <div class="table-wrap resumo-table">
-      <table>
-        <thead><tr><th>Cargo</th><th>Aprovados não nomeados</th><th>Dupla aprovação</th><th>Sub judice</th><th>Quantitativo líquido</th></tr></thead>
-        <tbody>${resumoRows}
-          <tr><td><strong>TOTAL</strong></td><td></td><td></td><td></td><td><strong>${d.resumoQuantitativo.total}</strong></td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="impacto-note">${d.resumoQuantitativo.obs}</p>
+    <div id="impacto-dynamic"></div>
 
     <p style="color:var(--muted); font-size:0.8rem;">Fonte: ${d.fonte}</p>
   `;
+
+  const slider = document.getElementById('impacto-slider');
+  renderImpactoValues(Number(slider.value));
+  slider.addEventListener('input', () => renderImpactoValues(Number(slider.value)));
 }
 
 // ---------- Defesa Técnica ----------
