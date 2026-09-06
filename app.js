@@ -98,7 +98,6 @@ function renderResumo() {
   const cards = [
     { label: `Total de candidatos (${cargoLabel()})`, value: total },
     { label: 'Já nomeados (histórico)', value: jaNomeados },
-    { label: 'Ativos hoje (SIM)', value: nomeados },
     { label: 'Aprovados a nomear', value: aprovadosANomear },
     { label: 'Fim de fila', value: fimDeFila },
     { label: 'Tornados sem efeito', value: semEfeito },
