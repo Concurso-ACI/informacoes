@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "mesAno": "01/2023",
+    "titulo": "Marco 1 — Publicação do Edital",
+    "descricao": "Situação do quadro quando da publicação do Edital nº 01 - SEPLAD, de 23/12/2022."
+  },
+  {
+    "id": 2,
+    "mesAno": "01/2025",
+    "titulo": "Marco 2 — Após a 1ª nomeação",
+    "descricao": "Situação após o 1º decreto de nomeações (DODF nº 237, de 12/12/2024 — 70 nomeados)."
+  },
+  {
+    "id": 3,
+    "mesAno": "04/2026",
+    "titulo": "Marco 3 — Após a 2ª nomeação",
+    "descricao": "Situação após o 2º decreto de nomeações (DODF nº 024, de 27/03/2026 — 30 nomeados)."
+  }
+]

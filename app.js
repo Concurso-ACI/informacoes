@@ -1,8 +1,8 @@
-let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [], ocupacaoCargos: [] };
+let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [], ocupacaoCargos: [], marcosOcupacao: [] };
 let CARGO = 'FC'; // 'FC' or 'PO'
 
 async function loadData() {
-  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos] = await Promise.all([
+  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao] = await Promise.all([
     fetch('data/nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/nomeacoes-po.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/vacancias.json', { cache: 'no-store' }).then(r => r.json()),
@@ -11,8 +11,9 @@ async function loadData() {
     fetch('data/defesa-tecnica.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/dodf-nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/ocupacao-cargos.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/marcos-ocupacao.json', { cache: 'no-store' }).then(r => r.json()),
   ]);
-  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos };
+  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao };
 }
 
 function currentNomeacoes() {
@@ -553,12 +554,61 @@ function renderOcupacao() {
     </div>
 
     <div class="cards" id="ocupacao-cards"></div>
+
+    <div class="panel-box marcos-box">
+      <h3>Marcos da análise — impacto real das nomeações</h3>
+      <div id="marcos-content"></div>
+    </div>
   `;
 
   document.getElementById('ocupacao-chart').innerHTML = buildOcupacaoSvg(data);
   renderOcupacaoMes(data[data.length - 1].mesAno);
 
   document.getElementById('ocupacao-mes-select').addEventListener('input', (e) => renderOcupacaoMes(e.target.value));
+
+  renderMarcos();
+}
+
+function renderMarcos() {
+  const marcos = DATA.marcosOcupacao.map(m => {
+    const d = DATA.ocupacaoCargos.find(x => x.mesAno === m.mesAno);
+    return { ...m, ...d };
+  });
+
+  const marcosHtml = marcos.map((m, i) => `
+    <div class="marco-card">
+      <div class="marco-num">${m.id}</div>
+      <div class="marco-body">
+        <div class="marco-titulo">${m.titulo}</div>
+        <div class="marco-mes">${m.mesAno}</div>
+        <p class="marco-desc">${m.descricao}</p>
+        <div class="marco-stats">
+          <span><strong>${m.ocupados}</strong> ocupados</span>
+          <span><strong>${m.vagos}</strong> vagos</span>
+          <span><strong>${m.taxaOcupacao.toFixed(2)}%</strong> ocupação</span>
+        </div>
+      </div>
+    </div>`).join('<div class="marco-arrow">→</div>');
+
+  const m1 = marcos[0], m2 = marcos[1], m3 = marcos[2];
+  const delta12 = m2.ocupados - m1.ocupados;
+  const delta23 = m3.ocupados - m2.ocupados;
+  const deltaTotal = m3.ocupados - m1.ocupados;
+  const nomeacoesTotais = DATA.dodfNomeacoes.reduce((s, d) => s + d.totalFc + d.totalPo, 0);
+  const aproveitamento = ((deltaTotal / nomeacoesTotais) * 100).toFixed(1);
+
+  const conclusaoHtml = `
+    <div class="marco-conclusao">
+      <p><strong>Do Marco 1 (${m1.mesAno}) ao Marco 2 (${m2.mesAno}):</strong> ${delta12 >= 0 ? '+' : ''}${delta12} cargos ocupados, mesmo após a 1ª nomeação ter colocado 70 novos candidatos em posse.</p>
+      <p><strong>Do Marco 2 (${m2.mesAno}) ao Marco 3 (${m3.mesAno}):</strong> ${delta23 >= 0 ? '+' : ''}${delta23} cargos ocupados — uma <strong>queda</strong> no quantitativo, apesar da 2ª nomeação ter incluído mais 30 candidatos.</p>
+      <p><strong>Resultado líquido (${m1.mesAno} → ${m3.mesAno}):</strong> de ${nomeacoesTotais} nomeações realizadas nos dois decretos, o quadro de ocupados avançou apenas ${deltaTotal >= 0 ? '+' : ''}${deltaTotal} posições (aproveitamento líquido de ${aproveitamento}%). Isso demonstra que o acréscimo real de pessoal foi ínfimo: as saídas por aposentadoria, exoneração e vacância no período absorveram quase toda a força das nomeações, mantendo a taxa de ocupação praticamente estável (${m1.taxaOcupacao.toFixed(1)}% → ${m3.taxaOcupacao.toFixed(1)}%).</p>
+    </div>
+  `;
+
+  document.getElementById('marcos-content').innerHTML = `
+    <div class="marcos-row">${marcosHtml}</div>
+    ${conclusaoHtml}
+  `;
 }
 
 // ---------- CSV export ----------
