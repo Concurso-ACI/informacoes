@@ -224,6 +224,16 @@ a { color: var(--gold-soft); }
   margin-bottom: 20px;
 }
 h3 { color: var(--gold-soft); }
+
+.defesa-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+.defesa-card h3 { margin-top: 0; font-size: 0.95rem; }
+.defesa-resumo { color: var(--text); font-size: 0.85rem; line-height: 1.5; }
+.defesa-card a { font-size: 0.83rem; font-weight: 600; text-decoration: none; }
+.defesa-card a:hover { text-decoration: underline; }
 .resumo-table {
   margin-top: 8px;
 }

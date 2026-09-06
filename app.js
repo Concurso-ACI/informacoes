@@ -1,15 +1,16 @@
-let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null };
+let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [] };
 let CARGO = 'FC'; // 'FC' or 'PO'
 
 async function loadData() {
-  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto] = await Promise.all([
+  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica] = await Promise.all([
     fetch('data/nomeacoes.json').then(r => r.json()),
     fetch('data/nomeacoes-po.json').then(r => r.json()),
     fetch('data/vacancias.json').then(r => r.json()),
     fetch('data/sem-efeito.json').then(r => r.json()),
     fetch('data/impacto.json').then(r => r.json()),
+    fetch('data/defesa-tecnica.json').then(r => r.json()),
   ]);
-  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto };
+  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica };
 }
 
 function currentNomeacoes() {
@@ -391,6 +392,21 @@ function renderImpacto() {
   `;
 }
 
+// ---------- Defesa Técnica ----------
+function renderDefesaTecnica() {
+  const cardsHtml = DATA.defesaTecnica.map(d => `
+    <div class="panel-box defesa-card">
+      <h3>${d.titulo}</h3>
+      <p class="defesa-resumo">${d.resumo}</p>
+      <a href="${d.link}" target="_blank" rel="noopener">Acessar documento →</a>
+    </div>`).join('');
+
+  document.getElementById('defesa-tecnica-content').innerHTML = `
+    <p class="impacto-note">Fundamentação jurídica para as nomeações no período eleitoral.</p>
+    <div class="defesa-grid">${cardsHtml}</div>
+  `;
+}
+
 // ---------- CSV export ----------
 function exportCsv(rows, filename) {
   if (!rows.length) return;
@@ -426,6 +442,7 @@ async function init() {
   renderSemEfeitoFilters();
   renderSemEfeitoTable();
   renderImpacto();
+  renderDefesaTecnica();
 }
 
 init();
