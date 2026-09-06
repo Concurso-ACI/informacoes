@@ -540,7 +540,7 @@
 "notaCF": 45,
 "notaFinal": 259.3,
 "ordem": 27,
-"situacao": null,
+"situacao": "FIM DE FILA",
 "observacao": "senado",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
@@ -553,7 +553,7 @@
 "notaCF": 44,
 "notaFinal": 259.27,
 "ordem": 29,
-"situacao": null,
+"situacao": "FIM DE FILA",
 "observacao": "senado",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
