@@ -1,215 +1,215 @@
 ﻿Nova ordem;Ordem;Tipo de vaga;Class. no tipo;Inscrição;Nome;Pontuação;Situação;Subjudice;CGDF-PO;TCDF/TCU;Senado/Câmara/RFB;Observação
-"1";"1";"AMPLA";"1";"10002826";"Marcos Felipe de Almeida Martins";"242.72";"FIM DE FILA";"";"PO";"";"SENADO";""
-"2";"2";"AMPLA";"2";"10002259";"Marcelo Alves Santana";"242.5";"SIM";"";"";"";"";""
-"3";"3";"NEGRO";"1";"10000344";"Fabiane Alves de Oliveira";"226.57";"FIM DE FILA";"";"PO";"";"";"TORNAR SEM EFEITO"
-"4";"4";"AMPLA";"3";"10001397";"Camila de Lima Alves";"242";"FIM DE FILA";"";"PO";"TCDF";"CÂMARA";""
-"5";"5";"PCD";"1";"10005538";"Thais Santana Meireles Rocco";"219.69";"DESISTÊNCIA";"";"";"TCDF";"";""
-"6";"6";"AMPLA";"4";"10000306";"Cristiano Nobrega de Castro Franca";"241.95";"SIM";"";"";"";"";""
-"7";"7";"AMPLA";"5";"10002546";"Marcela Yurie Ochiro";"241.22";"SIM";"";"";"";"";""
-"8";"8";"NEGRO";"2";"10003464";"Leon de Oliveira Madeira";"226.25";"SIM";"";"";"";"";""
-"9";"9";"AMPLA";"6";"10002730";"Viviane Goncalves Mendes";"240.56";"SIM";"";"";"";"";""
-"10";"10";"PCD";"2";"10000636";"Luan Felipe Fernandes de Medeiros";"219.41";"SIM";"";"PO";"";"";""
-"11";"11";"HIPO";"1";"10001198";"Higor Henrique Paulo Theodoro";"190.65";"SIM";"";"";"";"";""
-"12";"12";"AMPLA";"7";"10003737";"Samuel Gomes Quintanilha";"238.99";"SIM";"";"";"";"";""
-"13";"13";"NEGRO";"3";"10003353";"Alexandre de Araujo Martins";"224.35";"SIM";"";"";"";"";""
-"14";"14";"AMPLA";"8";"10005424";"Tchielo Lisboa Camboim";"236.76";"SIM";"";"";"";"";""
-"15";"15";"PCD";"3";"10003706";"Fernanda Nigro Lapietra";"215.07";"SIM";"";"";"TCDF";"";"PROCURAR EXONERAÇÃO"
-"16";"16";"AMPLA";"9";"10003685";"Salvio Medeiros Costa Neto";"236.17";"SIM";"";"PO";"TCDF";"";"PROCURAR EXONERAÇÃO"
-"17";"17";"AMPLA";"10";"10000196";"Erika Rayanne Silva Borges";"235.6";"SIM";"";"PO";"";"";""
-"18";"18";"NEGRO";"4";"10001025";"Rafael Tavares Ferreira Lima";"219.35";"SIM";"";"PO";"";"";""
-"19";"19";"AMPLA";"11";"10006654";"Leonardo Azevedo Marchioni";"234.69";"SIM";"";"";"";"";""
-"20";"20";"PCD";"4";"10002241";"Felipe da Silva Fonseca";"213.52";"SIM";"";"";"";"";""
-"21";"21";"HIPO";"2";"10000958";"Juliano Rodrigues de Oliveira";"190.05";"SIM";"";"";"";"";""
-"22";"22";"AMPLA";"12";"10003752";"Salomao Vinicius Aragao da Cruz";"234.52";"SIM";"";"";"";"";""
-"23";"23";"NEGRO";"5";"10008138";"Renan Gomes Sant Anna";"218";"SIM";"TRANSITO JULGADO";"PO";"";"";""
-"24";"24";"AMPLA";"13";"10003206";"Carolina Soares Duarte Feitoza";"234.42";"SIM";"";"";"TCDF";"";""
-"25";"25";"PCD";"5";"10000153";"Shayene de Mendonca Soares";"209.88";"SIM";"";"";"";"";""
-"26";"26";"AMPLA";"14";"10005327";"Ariadne Macedo dos Santos";"234.3";"FIM DE FILA";"";"";"";"SENADO";""
-"27";"27";"AMPLA";"15";"10004730";"Roberto Miyazaki Ramos";"234.05";"SIM";"";"";"";"";""
-"28";"28";"NEGRO";"6";"10007436";"Leticia Laleska Oliveira da Silva";"216.71";"SIM";"";"PO";"";"";""
-"29";"29";"AMPLA";"16";"10003119";"Jose Maria Nova da Costa Neto";"233.98";"EXONERAÇÃO";"";"";"TCDF";"";""
-"30";"30";"PCD";"6";"10005288";"Tulio Torres do Val";"208.41";"SIM";"";"PO";"";"";""
-"31";"31";"HIPO";"3";"10000496";"Daniel Pereira Lima Souza";"178.98";"SIM";"";"";"";"";""
-"32";"32";"AMPLA";"17";"10007463";"Matheus Luan Froz Gomes";"233.86";"FIM DE FILA";"";"";"";"";""
-"33";"33";"NEGRO";"7";"10000455";"Lucas Rodrigues Damasceno";"215.3";"SIM";"";"";"";"";""
-"34";"34";"AMPLA";"18";"10000028";"Lucas Nunes de Barros";"233.85";"SIM";"";"";"";"";""
-"35";"35";"PCD";"7";"10002831";"Alinne Patricia de Andrade Carvalho e Silva";"205.12";"FIM DE FILA";"SUBJUDICE";"PO";"TCDF";"";"TORNAR SEM EFEITO"
-"36";"36";"AMPLA";"19";"10008320";"Gilberto de Castro Vasconcelos Neto";"233";"SIM";"";"";"";"";""
-"37";"37";"AMPLA";"20";"10005652";"Bruno Araujo Lopes";"232.69";"SIM";"";"";"";"";""
-"38";"38";"NEGRO";"8";"10007778";"Monica Cristina de Britto Scaglione";"215.18";"SIM";"";"";"";"";""
-"39";"39";"AMPLA";"21";"10006235";"Artur Araujo de Moura Fe";"232.5";"FIM DE FILA";"";"";"";"";"TORNAR SEM EFEITO"
-"40";"40";"PCD";"8";"10003345";"Renan Otavio Ferreira Roma";"201.08";"SIM";"";"";"";"";""
-"41";"41";"AMPLA";"22";"10000185";"Bruna Goncalves Vieira";"232.28";"SIM";"";"";"";"";""
-"42";"42";"AMPLA";"23";"10004559";"Gustavo Barroso Coutinho";"232.07";"SIM";"";"";"";"";""
-"43";"43";"NEGRO";"9";"10007788";"Joao Victor Alves da Silva";"214.41";"EXONERAÇÃO";"";"";"";"";""
-"44";"44";"AMPLA";"24";"10004079";"Luanna Camilla Fernandes Alves";"231.93";"SUBJUDICE";"SUBJUDICE";"";"";"";""
-"45";"45";"PCD";"9";"10006093";"Cinthya Chamarelli";"200.58";"SIM";"";"";"";"";""
-"46";"46";"AMPLA";"25";"10004958";"Michelle Goncalves";"231.56";"EXONERAÇÃO";"";"";"";"";""
-"47";"47";"AMPLA";"26";"10001450";"Igor Malick Rocha";"229.97";"SIM";"";"";"";"";""
-"48";"48";"NEGRO";"10";"10001764";"Amanda Santos Silva";"211.55";"EXONERAÇÃO";"";"";"TCDF";"";""
-"49";"49";"AMPLA";"27";"10001332";"Fernanda Gomes Coelho";"229.85";"SIM";"TRANSITO JULGADO";"";"";"";""
-"50";"50";"PCD";"10";"10003348";"Natalia Prado Gomes";"193.09";"EXONERAÇÃO";"";"";"TCDF";"";""
-"51";"51";"AMPLA";"28";"10002980";"Camilo Saldanha Bortot";"229.33";"SIM";"";"";"";"";""
-"52";"52";"AMPLA";"29";"10001360";"Andre Medeiros Freire";"229.21";"SIM";"";"PO";"";"";"TORNAR SEM EFEITO"
-"53";"53";"NEGRO";"11";"10000500";"Bruno Alves de Santana e Silva";"210.55";"SIM";"";"";"";"";""
-"54";"54";"AMPLA";"30";"10004619";"Fabricio Resende Naves";"229.15";"FIM DE FILA";"";"PO";"TCDF";"";""
-"55";"55";"PCD";"11";"10003475";"Angela Bispo da Silva";"180.3";"SIM";"";"";"";"";""
-"56";"56";"AMPLA";"31";"10003369";"Camila Oliveira Santos";"228.85";"FIM DE FILA";"";"";"";"";"TORNAR SEM EFEITO"
-"57";"57";"AMPLA";"32";"10001229";"Pedro Henrique Teodoro Pereira";"228.78";"FIM DE FILA";"";"";"TCDF";"";""
-"58";"58";"NEGRO";"12";"10005589";"Stefany Valentim Mendes da Silva";"209.25";"SUBJUDICE";"SUBJUDICE";"";"";"";""
-"59";"59";"AMPLA";"33";"10003997";"Lucio Braganca Zago";"228.69";"SIM";"";"";"";"";""
-"60";"60";"PCD";"12";"10002306";"Jose Eduardo Machado Barroso";"179.35";"DESISTIU DO PROCESSO";"SUBJUDICE";"";"";"";""
-"61";"61";"AMPLA";"34";"10003172";"Monica Guo Ming";"228.16";"SIM";"";"";"";"";""
-"62";"62";"AMPLA";"35";"10005250";"Alisson Natal Alves de Sousa";"227.97";"FIM DE FILA";"";"";"";"SENADO";""
-"63";"63";"NEGRO";"13";"10000105";"Vinicius dos Anjos Rodrigues";"209.19";"SIM";"";"PO";"";"";""
-"64";"64";"AMPLA";"36";"10005904";"Alexandre Andrade da Silva Machado";"227.94";"FIM DE FILA";"";"";"TCU";"";""
-"65";"65";"PCD";"13";"10000439";"Julemar Antonio de Amorim";"178.6";"SIM";"";"";"TCDF";"";"TORNAR SEM EFEITO"
-"66";"66";"AMPLA";"37";"10001353";"Priscilla Goncalves Marques";"227.68";"SIM";"";"";"";"";""
-"67";"67";"AMPLA";"38";"10006963";"Paulo Egidio Alves de Oliveira";"227.65";"SIM";"";"PO";"TCDF";"";"TORNAR SEM EFEITO"
-"68";"68";"NEGRO";"14";"10003646";"Italo Rafael Almeida do Nascimento";"207.93";"FIM DE FILA";"";"";"";"";""
-"69";"69";"AMPLA";"39";"10002405";"Samilla Ribeiro de Souza";"227.58";"SIM";"";"";"TCDF";"";"FOI EXONERADA - 04/05/2026"
-"70";"70";"PCD";"14";"10001876";"Elton Kleber da Silva";"167.13";"SIM";"";"";"";"";""
-"71";"71";"AMPLA";"40";"10007235";"Christian do Lago Freitas Bezerra de Melo";"227.5";"FIM DE FILA";"";"PO";"";"";""
-"72";"72";"AMPLA";"41";"10005463";"Isadora Cidrao Campos";"227.36";"SIM";"";"";"";"";""
-"73";"73";"NEGRO";"15";"10004930";"Katiana Rodrigues da Silva";"206.9";"SIM";"";"";"";"";""
-"74";"74";"AMPLA";"42";"10005563";"Aline Amaral Silva";"227.24";"FIM DE FILA";"";"";"";"";""
-"75";"75";"AMPLA";"43";"10006293";"Maria Vitoria Nava Silva do Carmo";"226.91";"FIM DE FILA";"";"PO";"";"";""
-"76";"76";"AMPLA";"44";"10001569";"Adalice Flavia Duarte de Medeiros";"226.77";"SIM";"";"";"";"";""
-"77";"77";"AMPLA";"45";"10005255";"Weskley Rodrigues dos Santos";"226.18";"SIM";"";"";"";"";""
-"78";"78";"NEGRO";"16";"10001899";"Mariana Cristina Melo do Nascimento";"205.19";"SIM";"";"PO";"";"";""
-"79";"79";"AMPLA";"46";"10001290";"Lorenna de Souza Batista do Carmo";"226.18";"SIM";"";"";"";"";""
-"80";"80";"AMPLA";"47";"10004448";"Maya Imbassahy Pinheiro";"226.11";"SIM";"";"";"";"";""
-"81";"81";"AMPLA";"48";"10006539";"Hugo Cesar da Silva Almeida";"226.01";"SIM";"";"";"";"";""
-"82";"82";"AMPLA";"49";"10006318";"Patricia Mafili Lisboa";"224.96";"FIM DE FILA";"";"";"";"SENADO";""
-"83";"83";"NEGRO";"17";"10004150";"Caio Jorge dos Santos Vasconcellos";"202.61";"SIM";"";"PO";"";"";""
-"84";"84";"AMPLA";"50";"10006028";"Arthur Schoueri Colaco";"224.26";"SIM";"";"";"";"RFB";""
-"85";"85";"AMPLA";"51";"10006100";"Danubia Grasiele Lara de Sousa";"224.05";"SIM";"";"";"";"";""
-"86";"86";"AMPLA";"52";"10002851";"Andeliton de Oliveira Soares";"223.96";"SIM";"";"";"";"";""
-"87";"87";"AMPLA";"53";"10005338";"Marcelo Augusto Sapper de Souza";"223.81";"SIM";"";"";"";"";""
-"88";"88";"NEGRO";"18";"10006258";"Thiago de Oliveira Goncalves";"202.41";"";"";"";"";"";""
-"89";"89";"AMPLA";"54";"10005677";"Pedro Nunes Britto Moreira";"223.73";"SIM";"";"";"";"";""
-"90";"90";"AMPLA";"55";"10006025";"Raphael Santos Dantas";"223.48";"SIM";"";"";"";"";""
-"91";"91";"AMPLA";"56";"10001517";"Mayara Oliveira Lucena";"223.27";"FIM DE FILA";"";"";"TCDF";"";"PEDIR FIM FILA FOI NOMEADA"
-"92";"92";"AMPLA";"57";"10005019";"Lorreine Silva Messias";"223.01";"";"";"";"";"";""
-"93";"93";"NEGRO";"19";"10004948";"Fernanda do Nascimento de Souza";"202.32";"";"";"";"";"";""
-"94";"94";"AMPLA";"58";"10006049";"Everton Aguiar Oliveira";"222.78";"";"";"";"";"";""
-"95";"95";"AMPLA";"59";"10001219";"Mateus Aguiar Machado";"222.59";"";"";"";"";"";""
-"96";"96";"AMPLA";"60";"10007359";"Gabriel de Araujo Sobrinho";"221.65";"";"";"";"";"";""
-"97";"97";"AMPLA";"61";"10005967";"Joao Vitor Franco Belem";"221.64";"";"";"";"";"";""
-"98";"98";"NEGRO";"20";"10004507";"Caio Arruda Anastacio";"199.88";"";"";"";"";"";""
-"99";"99";"AMPLA";"62";"10003424";"Thiago Carmo Ximenes";"221.56";"FIM DE FILA";"";"PO";"";"";""
-"100";"100";"AMPLA";"63";"10001052";"Arthur Pereira Duarte";"221.39";"";"";"";"";"";""
-"101";"101";"AMPLA";"64";"10007833";"Lucas Bezerra Campos";"221.32";"";"";"";"";"";""
-"102";"102";"AMPLA";"65";"10005138";"Leandro Borges Olsen";"221.12";"";"";"";"";"";""
-"103";"103";"NEGRO";"21";"10007574";"Eder Brandao da Silva Araujo";"199.37";"";"";"";"";"";""
-"104";"104";"AMPLA";"66";"10001705";"Jessica Soares da Rocha";"221.1";"FIM DE FILA";"";"";"TCDF";"";""
-"105";"105";"AMPLA";"67";"10003632";"Liliane Mendonca Sarkis Guimaraes";"220.99";"FIM DE FILA";"";"";"TCDF";"";""
-"106";"106";"AMPLA";"68";"10002725";"Lucas Mendonca Brito da Silva";"220.98";"";"";"";"";"";""
-"107";"107";"AMPLA";"69";"10006655";"Luis Carlos de Carvalho Junior";"220.62";"";"";"";"";"";""
-"108";"108";"NEGRO";"22";"10001016";"Kamila Costa Ferreira Pereira";"198.42";"";"";"";"";"";""
-"109";"109";"AMPLA";"70";"10000894";"Fabio Alves Lisboa";"220.46";"";"";"";"";"";""
-"110";"110";"AMPLA";"71";"10003271";"Guilherme Renato Silva";"220.43";"";"SUBJUDICE";"";"";"";""
-"111";"111";"AMPLA";"72";"10001101";"Francisco de Assis Galindo de Oliveira Filho";"220.43";"FIM DE FILA";"";"";"TCDF";"";"PEDIR FIM FILA FOI NOMEADO"
-"112";"112";"AMPLA";"73";"10006045";"Lucas Garcia de Sampaio Lobianco";"220.15";"FIM DE FILA";"";"";"TCDF";"";"00020984/2026"
-"113";"113";"NEGRO";"23";"10005334";"Noemia Maria de Azevedo";"196.19";"";"";"";"";"";""
-"114";"114";"AMPLA";"74";"10004661";"Raphael Felipe de Sousa";"220";"FIM DE FILA";"";"PO";"TCDF";"";""
-"115";"115";"AMPLA";"75";"10000234";"Ciro Costa Vieira";"219.56";"";"";"";"";"";""
-"116";"116";"AMPLA";"76";"10001602";"Thaynan Cavalcanti Alexandrino";"219.19";"";"";"";"";"";""
-"117";"117";"AMPLA";"77";"10004020";"Vanessa de Sousa Araujo";"219.16";"";"";"";"";"";""
-"118";"118";"NEGRO";"24";"10005684";"Gilbert Eric Song Song";"196.19";"";"SUBJUDICE";"";"";"";""
-"119";"119";"AMPLA";"78";"10001267";"Gabriel Doria Pares Brunelli";"218.94";"FIM DE FILA";"";"PO";"";"CÂMARA";""
-"120";"120";"AMPLA";"79";"10002050";"Helio Futsun Ho";"218.91";"FIM DE FILA";"";"";"TCU";"";""
-"121";"121";"AMPLA";"80";"10003743";"Didier Rohe Salomon da Rosa Rodrigues";"218.84";"FIM DE FILA";"";"";"TCDF";"";""
-"122";"122";"AMPLA";"81";"10000946";"Mirele Oliveira Sousa da Silva";"218.75";"";"";"";"";"";""
-"123";"123";"NEGRO";"25";"10007752";"Jose Douglas Oliveira da Silva";"194.73";"FIM DE FILA";"";"";"";"SENADO";""
-"124";"124";"AMPLA";"82";"10000590";"Juan Henrique Oliveira Sampaio";"218.42";"";"";"";"";"";""
-"125";"125";"AMPLA";"83";"10002938";"Danily Andrade Veloso";"218.12";"FIM DE FILA";"";"";"";"SENADO";""
-"126";"126";"AMPLA";"84";"10000743";"Savio Oliveira de Almeida Neves";"218.09";"";"";"";"";"";""
-"127";"127";"AMPLA";"85";"10006833";"Armando Takaharu Saeki";"217.93";"";"";"";"";"";""
-"128";"128";"NEGRO";"26";"10005112";"Paulo Henrique Pinto de Oliveira";"194.1";"";"";"";"";"";""
-"129";"129";"AMPLA";"86";"10000335";"Diogo Miranda Galvao";"217.91";"";"";"";"";"";""
-"130";"130";"AMPLA";"87";"10003355";"Arthur Jose Amaral de Souza Junior";"217.3";"";"";"";"";"";""
-"131";"131";"AMPLA";"88";"10002746";"Priscila Maria Martini Lima";"217.25";"";"";"";"";"";""
-"132";"132";"AMPLA";"89";"10001201";"Bruno Rolim Vieira Maciel";"217.13";"";"";"";"";"";""
-"133";"133";"NEGRO";"27";"10002837";"Rulio Iglessia Rodrigues da Costa";"191.62";"";"SUBJUDICE";"";"";"";""
-"134";"134";"AMPLA";"90";"10001361";"Thiago Augusto Rabelo de Lima";"216.7";"";"";"";"";"";""
-"135";"135";"AMPLA";"91";"10005122";"Richeli Arantes Dias";"216.66";"";"";"";"";"";""
-"136";"136";"AMPLA";"92";"10004665";"Wildson Tavares Fonseca Moura";"216.55";"";"";"";"";"";""
-"137";"137";"AMPLA";"93";"10004595";"Rafaela Naira Barbosa de Oliveira";"216.52";"";"";"";"";"";""
-"138";"138";"NEGRO";"28";"10003333";"Douglas de Andrade Almeida";"191.57";"";"SUBJUDICE";"";"";"";""
-"139";"139";"AMPLA";"94";"10000012";"Bruno Bortoleto";"216.27";"";"";"";"";"";""
-"140";"140";"AMPLA";"95";"10004381";"Barbara Caetano Ferro";"216.24";"";"";"";"";"";""
-"141";"141";"AMPLA";"96";"10002892";"Sibele Bertoldo Guerreiro";"216.23";"";"";"";"";"";""
-"142";"142";"AMPLA";"97";"10002644";"Filipe Jose Medeiros Brasil";"216.08";"";"";"";"";"";""
-"143";"143";"NEGRO";"29";"10004013";"Taylon Roger Souza Santos";"191.12";"";"SUBJUDICE";"";"";"";""
-"144";"144";"AMPLA";"98";"10000087";"Bruna Maria de Pina";"215.99";"";"";"";"";"";""
-"145";"145";"AMPLA";"99";"10005585";"Yuri Oliveira Silva";"215.92";"";"";"";"";"";""
-"146";"146";"AMPLA";"100";"10002315";"Augusto Hauschild Pellegrin";"215.74";"FIM DE FILA";"";"";"";"";""
-"147";"147";"AMPLA";"101";"10004069";"Diego de Carvalho Frade";"215.59";"";"";"";"";"";""
-"148";"148";"NEGRO";"30";"10000441";"Weslley Barbosa Umbelino";"190.98";"";"SUBJUDICE";"";"";"";""
-"149";"149";"AMPLA";"102";"10008102";"Isac Apolonio de Moura Carvalho";"215.48";"";"";"";"";"";""
-"150";"150";"AMPLA";"103";"10004419";"Luis Alberto Rodrigues de Assis";"215.2";"";"";"";"";"";""
-"151";"151";"AMPLA";"104";"10000904";"Caique Dutra Brito";"215.12";"FIM DE FILA";"";"";"TCDF";"";""
-"152";"152";"AMPLA";"105";"10005984";"Erik Emanoel dos Santos Xavier";"214.93";"";"";"";"";"";""
-"153";"153";"NEGRO";"31";"10003094";"Laisse Evangelista Santos";"190.91";"";"";"";"";"";""
-"154";"154";"AMPLA";"106";"10000268";"Nadia Braga de Lima Saraiva Fernandes";"214.74";"FIM DE FILA";"";"";"";"";""
-"155";"155";"AMPLA";"107";"10006186";"Max Alan Pimenta Pena";"214.55";"";"";"";"";"";""
-"156";"156";"AMPLA";"108";"10000724";"Clara Teixeira de Carvalho Bevilaqua";"214.46";"";"";"";"";"";""
-"157";"157";"AMPLA";"109";"10006376";"Guilherme Henrique Santos Silva";"214.44";"";"";"";"";"";""
-"158";"158";"NEGRO";"32";"10001368";"Marcio Kleber Ramos Filho";"190.69";"";"";"";"";"";""
-"159";"159";"AMPLA";"110";"10001118";"Nubia Gomes Barbosa";"214.3";"FIM DE FILA";"";"";"TCDF";"";"PEDIR FIM FILA FOI NOMEADA"
-"160";"160";"AMPLA";"111";"10004561";"Jose Evilasio Barros Junior";"214.05";"";"";"";"";"";""
-"161";"161";"AMPLA";"112";"10000519";"Rodrigo Gomes Rodrigues";"214.04";"FIM DE FILA";"";"";"";"";""
-"162";"162";"AMPLA";"113";"10002048";"Launelle Cardozo Martins";"213.98";"";"";"";"";"";""
-"163";"163";"NEGRO";"33";"10003704";"Sergio Garcia Fernandes";"190.35";"";"";"";"";"";""
-"164";"164";"AMPLA";"114";"10001507";"Raissa Alecrim Ferreira";"213.91";"";"";"";"";"";""
-"165";"165";"AMPLA";"115";"10000538";"Vanize de Freitas Guimaraes";"213.87";"";"";"";"";"";""
-"166";"166";"AMPLA";"116";"10006901";"Bruna Martins Machado";"213.81";"FIM DE FILA";"";"";"TCDF";"";"PEDIR FIM FILA FOI NOMEADA"
-"167";"167";"AMPLA";"117";"10002300";"Rejane de Martins e Pinheiro";"213.51";"";"";"";"";"";""
-"168";"168";"NEGRO";"34";"10003941";"Josiclene Silva Ponte de Brito";"189.53";"";"SUBJUDICE";"";"";"";""
-"169";"169";"AMPLA";"118";"10001078";"Alexandre Jose da Silva Garrote";"213.33";"";"";"";"";"";""
-"170";"170";"AMPLA";"119";"10005289";"Mateus Coelho Ferreira";"213.05";"";"";"";"";"";""
-"171";"171";"AMPLA";"120";"10005484";"Phillipi Barack Carvalho de Macedo";"213.02";"";"";"";"";"";""
-"172";"172";"AMPLA";"121";"10001860";"Priscila Dias de Almeida";"212.96";"";"";"";"";"";""
-"173";"173";"NEGRO";"35";"10006038";"Erivelton Maximo Fonseca";"188.97";"";"";"";"";"";""
-"174";"174";"AMPLA";"122";"10001259";"Fabiana Braga Lopes";"212.81";"";"";"";"TCU";"";""
-"175";"175";"AMPLA";"123";"10007063";"Marcelo Ferreira Hallac";"212.7";"";"";"";"";"";""
-"176";"176";"AMPLA";"124";"10003749";"Priscila Aragao da Cruz";"211.97";"FIM DE FILA";"";"";"TCDF";"";""
-"177";"177";"AMPLA";"125";"10001303";"Hugo da Costa Melo Gomes Ferreira";"211.8";"";"";"";"";"";""
-"178";"178";"NEGRO";"36";"10000755";"Gabriel Pereira Mendes";"188.73";"";"";"";"";"";""
-"179";"179";"AMPLA";"126";"10006458";"Iuri Ferrao de Albuquerque";"211.74";"FIM DE FILA";"";"";"TCU";"SENADO";""
-"180";"180";"AMPLA";"127";"10003477";"Isabella de Carvalho Scherrer";"211.65";"";"";"";"";"";""
-"181";"181";"AMPLA";"128";"10000929";"Caio Carvalho Correia Barros";"211.5";"";"SUBJUDICE";"";"";"";""
-"182";"182";"AMPLA";"129";"10004239";"Rafael Brandt";"211.44";"";"";"";"";"";""
-"183";"183";"NEGRO";"37";"10007492";"Raquel Madureira de Araujo";"188.36";"";"";"";"";"";""
-"184";"184";"AMPLA";"130";"10000819";"Barbara Avelar Cesar Moreira";"211.12";"";"";"";"";"";""
-"185";"185";"AMPLA";"131";"10004463";"Henrique Otavio de Padua Borges";"211.08";"";"";"";"";"";""
-"186";"186";"AMPLA";"132";"10003254";"Lara Santos Aguiar Dantas";"210.79";"";"";"";"";"";""
-"187";"187";"AMPLA";"133";"10001806";"Carlos Alexandre Ataide dos Santos";"210.58";"";"";"";"";"";""
-"188";"188";"NEGRO";"38";"10007841";"Debora Maria Franca Rodrigues";"187.93";"";"SUBJUDICE";"";"";"";""
-"189";"189";"AMPLA";"134";"10002818";"Rafael Silva Antunes Quaresma";"210.32";"FIM DE FILA";"";"";"";"";""
-"190";"190";"AMPLA";"135";"10006250";"Joao Paulo Alves da Cunha";"210.08";"";"";"";"";"";""
-"191";"191";"AMPLA";"136";"10000745";"Yara Maues Batista";"209.92";"";"";"";"";"";""
-"192";"192";"AMPLA";"137";"10002649";"Jonatas Dutra Gomes";"209.65";"";"";"";"";"";""
-"193";"193";"NEGRO";"39";"10007497";"Matheus Santos Nascentes da Silva";"187.55";"";"";"";"";"";""
-"194";"194";"AMPLA";"138";"10005748";"Paulo Thiago Galvao Mascarenhas";"209.47";"FIM DE FILA";"";"";"TCDF";"";""
-"195";"195";"AMPLA";"139";"10003492";"Katucia Lopes da Silva";"209.15";"FIM DE FILA";"";"";"TCU";"";""
-"196";"196";"AMPLA";"140";"10001651";"Clarissa Rodrigues de Lima Barbosa";"208.88";"";"";"";"";"";""
-"197";"197";"AMPLA";"141";"10000931";"Ana Giulia Pfau Machado";"208.84";"";"";"";"";"";""
-"198";"198";"NEGRO";"40";"10002547";"Ana Paula dos Santos Silva Berte";"187.52";"";"SUBJUDICE";"";"";"";""
-"199";"199";"AMPLA";"142";"10005323";"Giselle Kobata Kimura";"208.73";"";"";"";"";"";""
-"200";"200";"AMPLA";"143";"10000291";"Ingrid Aparecida Monnerat de Lima";"208.48";"";"";"";"";"";""
-"201";"201";"AMPLA";"144";"10001663";"Carlos Alexandre Alves da Cunha";"208.34";"FIM DE FILA";"";"";"TCDF";"";""
-"202";"202";"AMPLA";"145";"10007142";"Jose Ribamar Sousa Duarte Junior";"208.2";"";"";"";"";"";""
-"203";"203";"NEGRO";"41";"10001914";"Joao Vitor Santana Vieira";"187.49";"";"";"";"";"";""
-"204";"204";"AMPLA";"146";"10002242";"Vitor Aguiar Pedrosa";"208.04";"";"";"";"";"";""
-"205";"205";"AMPLA";"147";"10002243";"Igor Cruz da Silva";"207.9";"";"";"";"";"";""
-"206";"206";"AMPLA";"148";"10000705";"Lucas Medeiros Sousa";"207.84";"";"";"";"";"";""
-"207";"207";"AMPLA";"149";"10001925";"Igor Theodoroviz Barreto";"206.93";"";"";"";"";"";""
-"208";"208";"NEGRO";"42";"10003436";"Elisete D Abadia Silva";"184.62";"";"SUBJUDICE";"";"";"";""
-"209";"209";"AMPLA";"150";"10003774";"Ana Claudia de Souza Lopes";"206.93";"";"";"";"";"";""
-"210";"210";"AMPLA";"151";"10000097";"Lais Kodama Correa de Moraes";"205.72";"FIM DE FILA";"SUBJUDICE";"";"TCDF";"";""
-"211";"211";"AMPLA";"152";"10003624";"Antilio Fernandes Filho";"205.04";"";"SUBJUDICE";"";"";"";""
-"212";"212";"AMPLA";"153";"10003300";"Claudia Regina dos Santos";"204.91";"";"";"";"";"";""
-"213";"213";"NEGRO";"43";"10007535";"Renata de Jesus Araujo";"184.17";"";"SUBJUDICE";"";"";"";""
-"214";"214";"AMPLA";"154";"10004163";"Angela Alvarenga Frutuoso";"202.16";"";"";"";"";"";""
+1;1;AMPLA;1;10002826;Marcos Felipe de Almeida Martins;242.72;FIM DE FILA;;PO;;SENADO;
+2;2;AMPLA;2;10002259;Marcelo Alves Santana;242.5;SIM;;;;;
+3;3;NEGRO;1;10000344;Fabiane Alves de Oliveira;226.57;FIM DE FILA;;PO;;;TORNAR SEM EFEITO
+4;4;AMPLA;3;10001397;Camila de Lima Alves;242;FIM DE FILA;;PO;TCDF;CÂMARA;
+5;5;PCD;1;10005538;Thais Santana Meireles Rocco;219.69;DESISTÊNCIA;;;TCDF;;
+6;6;AMPLA;4;10000306;Cristiano Nobrega de Castro Franca;241.95;SIM;;;;;
+7;7;AMPLA;5;10002546;Marcela Yurie Ochiro;241.22;SIM;;;;;
+8;8;NEGRO;2;10003464;Leon de Oliveira Madeira;226.25;SIM;;;;;
+9;9;AMPLA;6;10002730;Viviane Goncalves Mendes;240.56;SIM;;;;;
+10;10;PCD;2;10000636;Luan Felipe Fernandes de Medeiros;219.41;SIM;;PO;;;
+11;11;HIPO;1;10001198;Higor Henrique Paulo Theodoro;190.65;SIM;;;;;
+12;12;AMPLA;7;10003737;Samuel Gomes Quintanilha;238.99;SIM;;;;;
+13;13;NEGRO;3;10003353;Alexandre de Araujo Martins;224.35;SIM;;;;;
+14;14;AMPLA;8;10005424;Tchielo Lisboa Camboim;236.76;SIM;;;;;
+15;15;PCD;3;10003706;Fernanda Nigro Lapietra;215.07;SIM;;;TCDF;;PROCURAR EXONERAÇÃO
+16;16;AMPLA;9;10003685;Salvio Medeiros Costa Neto;236.17;SIM;;PO;TCDF;;PROCURAR EXONERAÇÃO
+17;17;AMPLA;10;10000196;Erika Rayanne Silva Borges;235.6;SIM;;PO;;;
+18;18;NEGRO;4;10001025;Rafael Tavares Ferreira Lima;219.35;SIM;;PO;;;
+19;19;AMPLA;11;10006654;Leonardo Azevedo Marchioni;234.69;SIM;;;;;
+20;20;PCD;4;10002241;Felipe da Silva Fonseca;213.52;SIM;;;;;
+21;21;HIPO;2;10000958;Juliano Rodrigues de Oliveira;190.05;SIM;;;;;
+22;22;AMPLA;12;10003752;Salomao Vinicius Aragao da Cruz;234.52;SIM;;;;;
+23;23;NEGRO;5;10008138;Renan Gomes Sant Anna;218;SIM;TRANSITO JULGADO;PO;;;
+24;24;AMPLA;13;10003206;Carolina Soares Duarte Feitoza;234.42;SIM;;;TCDF;;
+25;25;PCD;5;10000153;Shayene de Mendonca Soares;209.88;SIM;;;;;
+26;26;AMPLA;14;10005327;Ariadne Macedo dos Santos;234.3;FIM DE FILA;;;;SENADO;
+27;27;AMPLA;15;10004730;Roberto Miyazaki Ramos;234.05;SIM;;;;;
+28;28;NEGRO;6;10007436;Leticia Laleska Oliveira da Silva;216.71;SIM;;PO;;;
+29;29;AMPLA;16;10003119;Jose Maria Nova da Costa Neto;233.98;EXONERAÇÃO;;;TCDF;;
+30;30;PCD;6;10005288;Tulio Torres do Val;208.41;SIM;;PO;;;
+31;31;HIPO;3;10000496;Daniel Pereira Lima Souza;178.98;SIM;;;;;
+32;32;AMPLA;17;10007463;Matheus Luan Froz Gomes;233.86;FIM DE FILA;;;;;
+33;33;NEGRO;7;10000455;Lucas Rodrigues Damasceno;215.3;SIM;;;;;
+34;34;AMPLA;18;10000028;Lucas Nunes de Barros;233.85;SIM;;;;;
+35;35;PCD;7;10002831;Alinne Patricia de Andrade Carvalho e Silva;205.12;FIM DE FILA;SUBJUDICE;PO;TCDF;;TORNAR SEM EFEITO
+36;36;AMPLA;19;10008320;Gilberto de Castro Vasconcelos Neto;233;SIM;;;;;
+37;37;AMPLA;20;10005652;Bruno Araujo Lopes;232.69;SIM;;;;;
+38;38;NEGRO;8;10007778;Monica Cristina de Britto Scaglione;215.18;SIM;;;;;
+39;39;AMPLA;21;10006235;Artur Araujo de Moura Fe;232.5;FIM DE FILA;;;;;TORNAR SEM EFEITO
+40;40;PCD;8;10003345;Renan Otavio Ferreira Roma;201.08;SIM;;;;;
+41;41;AMPLA;22;10000185;Bruna Goncalves Vieira;232.28;SIM;;;;;
+42;42;AMPLA;23;10004559;Gustavo Barroso Coutinho;232.07;SIM;;;;;
+43;43;NEGRO;9;10007788;Joao Victor Alves da Silva;214.41;EXONERAÇÃO;;;;;
+44;44;AMPLA;24;10004079;Luanna Camilla Fernandes Alves;231.93;SUBJUDICE;SUBJUDICE;;;;
+45;45;PCD;9;10006093;Cinthya Chamarelli;200.58;SIM;;;;;
+46;46;AMPLA;25;10004958;Michelle Goncalves;231.56;EXONERAÇÃO;;;;;
+47;47;AMPLA;26;10001450;Igor Malick Rocha;229.97;SIM;;;;;
+48;48;NEGRO;10;10001764;Amanda Santos Silva;211.55;EXONERAÇÃO;;;TCDF;;
+49;49;AMPLA;27;10001332;Fernanda Gomes Coelho;229.85;SIM;TRANSITO JULGADO;;;;
+50;50;PCD;10;10003348;Natalia Prado Gomes;193.09;EXONERAÇÃO;;;TCDF;;
+51;51;AMPLA;28;10002980;Camilo Saldanha Bortot;229.33;SIM;;;;;
+52;52;AMPLA;29;10001360;Andre Medeiros Freire;229.21;SIM;;PO;;;TORNAR SEM EFEITO
+53;53;NEGRO;11;10000500;Bruno Alves de Santana e Silva;210.55;SIM;;;;;
+54;54;AMPLA;30;10004619;Fabricio Resende Naves;229.15;FIM DE FILA;;PO;TCDF;;
+55;55;PCD;11;10003475;Angela Bispo da Silva;180.3;SIM;;;;;
+56;56;AMPLA;31;10003369;Camila Oliveira Santos;228.85;FIM DE FILA;;;;;TORNAR SEM EFEITO
+57;57;AMPLA;32;10001229;Pedro Henrique Teodoro Pereira;228.78;FIM DE FILA;;;TCDF;;
+58;58;NEGRO;12;10005589;Stefany Valentim Mendes da Silva;209.25;SUBJUDICE;SUBJUDICE;;;;
+59;59;AMPLA;33;10003997;Lucio Braganca Zago;228.69;SIM;;;;;
+60;60;PCD;12;10002306;Jose Eduardo Machado Barroso;179.35;DESISTIU DO PROCESSO;SUBJUDICE;;;;
+61;61;AMPLA;34;10003172;Monica Guo Ming;228.16;SIM;;;;;
+62;62;AMPLA;35;10005250;Alisson Natal Alves de Sousa;227.97;FIM DE FILA;;;;SENADO;
+63;63;NEGRO;13;10000105;Vinicius dos Anjos Rodrigues;209.19;SIM;;PO;;;
+64;64;AMPLA;36;10005904;Alexandre Andrade da Silva Machado;227.94;FIM DE FILA;;;TCU;;
+65;65;PCD;13;10000439;Julemar Antonio de Amorim;178.6;SIM;;;TCDF;;TORNAR SEM EFEITO
+66;66;AMPLA;37;10001353;Priscilla Goncalves Marques;227.68;SIM;;;;;
+67;67;AMPLA;38;10006963;Paulo Egidio Alves de Oliveira;227.65;SIM;;PO;TCDF;;TORNAR SEM EFEITO
+68;68;NEGRO;14;10003646;Italo Rafael Almeida do Nascimento;207.93;FIM DE FILA;;;;;
+69;69;AMPLA;39;10002405;Samilla Ribeiro de Souza;227.58;SIM;;;TCDF;;FOI EXONERADA - 04/05/2026
+70;70;PCD;14;10001876;Elton Kleber da Silva;167.13;SIM;;;;;
+71;71;AMPLA;40;10007235;Christian do Lago Freitas Bezerra de Melo;227.5;FIM DE FILA;;PO;;;
+72;72;AMPLA;41;10005463;Isadora Cidrao Campos;227.36;SIM;;;;;
+73;73;NEGRO;15;10004930;Katiana Rodrigues da Silva;206.9;SIM;;;;;
+74;74;AMPLA;42;10005563;Aline Amaral Silva;227.24;FIM DE FILA;;;;;
+75;75;AMPLA;43;10006293;Maria Vitoria Nava Silva do Carmo;226.91;FIM DE FILA;;PO;;;
+76;76;AMPLA;44;10001569;Adalice Flavia Duarte de Medeiros;226.77;SIM;;;;;
+77;77;AMPLA;45;10005255;Weskley Rodrigues dos Santos;226.18;SIM;;;;;
+78;78;NEGRO;16;10001899;Mariana Cristina Melo do Nascimento;205.19;SIM;;PO;;;
+79;79;AMPLA;46;10001290;Lorenna de Souza Batista do Carmo;226.18;SIM;;;;;
+80;80;AMPLA;47;10004448;Maya Imbassahy Pinheiro;226.11;SIM;;;;;
+81;81;AMPLA;48;10006539;Hugo Cesar da Silva Almeida;226.01;SIM;;;;;
+82;82;AMPLA;49;10006318;Patricia Mafili Lisboa;224.96;FIM DE FILA;;;;SENADO;
+83;83;NEGRO;17;10004150;Caio Jorge dos Santos Vasconcellos;202.61;FIM DE FILA;;PO;;;
+84;84;AMPLA;50;10006028;Arthur Schoueri Colaco;224.26;SIM;;;;RFB;
+85;85;AMPLA;51;10006100;Danubia Grasiele Lara de Sousa;224.05;SIM;;;;;
+86;86;AMPLA;52;10002851;Andeliton de Oliveira Soares;223.96;SIM;;;;;
+87;87;AMPLA;53;10005338;Marcelo Augusto Sapper de Souza;223.81;SIM;;;;;
+88;88;NEGRO;18;10006258;Thiago de Oliveira Goncalves;202.41;;;;;;
+89;89;AMPLA;54;10005677;Pedro Nunes Britto Moreira;223.73;SIM;;;;;
+90;90;AMPLA;55;10006025;Raphael Santos Dantas;223.48;SIM;;;;;
+91;91;AMPLA;56;10001517;Mayara Oliveira Lucena;223.27;FIM DE FILA;;;TCDF;;PEDIR FIM FILA FOI NOMEADA
+92;92;AMPLA;57;10005019;Lorreine Silva Messias;223.01;;;;;;
+93;93;NEGRO;19;10004948;Fernanda do Nascimento de Souza;202.32;;;;;;
+94;94;AMPLA;58;10006049;Everton Aguiar Oliveira;222.78;;;;;;
+95;95;AMPLA;59;10001219;Mateus Aguiar Machado;222.59;;;;;;
+96;96;AMPLA;60;10007359;Gabriel de Araujo Sobrinho;221.65;;;;;;
+97;97;AMPLA;61;10005967;Joao Vitor Franco Belem;221.64;;;;;;
+98;98;NEGRO;20;10004507;Caio Arruda Anastacio;199.88;;;;;;
+99;99;AMPLA;62;10003424;Thiago Carmo Ximenes;221.56;FIM DE FILA;;PO;;;
+100;100;AMPLA;63;10001052;Arthur Pereira Duarte;221.39;;;;;;
+101;101;AMPLA;64;10007833;Lucas Bezerra Campos;221.32;;;;;;
+102;102;AMPLA;65;10005138;Leandro Borges Olsen;221.12;;;;;;
+103;103;NEGRO;21;10007574;Eder Brandao da Silva Araujo;199.37;;;;;;
+104;104;AMPLA;66;10001705;Jessica Soares da Rocha;221.1;FIM DE FILA;;;TCDF;;
+105;105;AMPLA;67;10003632;Liliane Mendonca Sarkis Guimaraes;220.99;FIM DE FILA;;;TCDF;;
+106;106;AMPLA;68;10002725;Lucas Mendonca Brito da Silva;220.98;;;;;;
+107;107;AMPLA;69;10006655;Luis Carlos de Carvalho Junior;220.62;;;;;;
+108;108;NEGRO;22;10001016;Kamila Costa Ferreira Pereira;198.42;;;;;;
+109;109;AMPLA;70;10000894;Fabio Alves Lisboa;220.46;;;;;;
+110;110;AMPLA;71;10003271;Guilherme Renato Silva;220.43;;SUBJUDICE;;;;
+111;111;AMPLA;72;10001101;Francisco de Assis Galindo de Oliveira Filho;220.43;FIM DE FILA;;;TCDF;;PEDIR FIM FILA FOI NOMEADO
+112;112;AMPLA;73;10006045;Lucas Garcia de Sampaio Lobianco;220.15;FIM DE FILA;;;TCDF;;00020984/2026
+113;113;NEGRO;23;10005334;Noemia Maria de Azevedo;196.19;;;;;;
+114;114;AMPLA;74;10004661;Raphael Felipe de Sousa;220;FIM DE FILA;;PO;TCDF;;
+115;115;AMPLA;75;10000234;Ciro Costa Vieira;219.56;;;;;;
+116;116;AMPLA;76;10001602;Thaynan Cavalcanti Alexandrino;219.19;;;;;;
+117;117;AMPLA;77;10004020;Vanessa de Sousa Araujo;219.16;;;;;;
+118;118;NEGRO;24;10005684;Gilbert Eric Song Song;196.19;;SUBJUDICE;;;;
+119;119;AMPLA;78;10001267;Gabriel Doria Pares Brunelli;218.94;FIM DE FILA;;PO;;CÂMARA;
+120;120;AMPLA;79;10002050;Helio Futsun Ho;218.91;FIM DE FILA;;;TCU;;
+121;121;AMPLA;80;10003743;Didier Rohe Salomon da Rosa Rodrigues;218.84;FIM DE FILA;;;TCDF;;
+122;122;AMPLA;81;10000946;Mirele Oliveira Sousa da Silva;218.75;;;;;;
+123;123;NEGRO;25;10007752;Jose Douglas Oliveira da Silva;194.73;FIM DE FILA;;;;SENADO;
+124;124;AMPLA;82;10000590;Juan Henrique Oliveira Sampaio;218.42;;;;;;
+125;125;AMPLA;83;10002938;Danily Andrade Veloso;218.12;FIM DE FILA;;;;SENADO;
+126;126;AMPLA;84;10000743;Savio Oliveira de Almeida Neves;218.09;;;;;;
+127;127;AMPLA;85;10006833;Armando Takaharu Saeki;217.93;;;;;;
+128;128;NEGRO;26;10005112;Paulo Henrique Pinto de Oliveira;194.1;;;;;;
+129;129;AMPLA;86;10000335;Diogo Miranda Galvao;217.91;;;;;;
+130;130;AMPLA;87;10003355;Arthur Jose Amaral de Souza Junior;217.3;;;;;;
+131;131;AMPLA;88;10002746;Priscila Maria Martini Lima;217.25;;;;;;
+132;132;AMPLA;89;10001201;Bruno Rolim Vieira Maciel;217.13;;;;;;
+133;133;NEGRO;27;10002837;Rulio Iglessia Rodrigues da Costa;191.62;;SUBJUDICE;;;;
+134;134;AMPLA;90;10001361;Thiago Augusto Rabelo de Lima;216.7;;;;;;
+135;135;AMPLA;91;10005122;Richeli Arantes Dias;216.66;;;;;;
+136;136;AMPLA;92;10004665;Wildson Tavares Fonseca Moura;216.55;;;;;;
+137;137;AMPLA;93;10004595;Rafaela Naira Barbosa de Oliveira;216.52;;;;;;
+138;138;NEGRO;28;10003333;Douglas de Andrade Almeida;191.57;;SUBJUDICE;;;;
+139;139;AMPLA;94;10000012;Bruno Bortoleto;216.27;;;;;;
+140;140;AMPLA;95;10004381;Barbara Caetano Ferro;216.24;;;;;;
+141;141;AMPLA;96;10002892;Sibele Bertoldo Guerreiro;216.23;;;;;;
+142;142;AMPLA;97;10002644;Filipe Jose Medeiros Brasil;216.08;;;;;;
+143;143;NEGRO;29;10004013;Taylon Roger Souza Santos;191.12;;SUBJUDICE;;;;
+144;144;AMPLA;98;10000087;Bruna Maria de Pina;215.99;;;;;;
+145;145;AMPLA;99;10005585;Yuri Oliveira Silva;215.92;;;;;;
+146;146;AMPLA;100;10002315;Augusto Hauschild Pellegrin;215.74;FIM DE FILA;;;;;
+147;147;AMPLA;101;10004069;Diego de Carvalho Frade;215.59;;;;;;
+148;148;NEGRO;30;10000441;Weslley Barbosa Umbelino;190.98;;SUBJUDICE;;;;
+149;149;AMPLA;102;10008102;Isac Apolonio de Moura Carvalho;215.48;;;;;;
+150;150;AMPLA;103;10004419;Luis Alberto Rodrigues de Assis;215.2;;;;;;
+151;151;AMPLA;104;10000904;Caique Dutra Brito;215.12;FIM DE FILA;;;TCDF;;
+152;152;AMPLA;105;10005984;Erik Emanoel dos Santos Xavier;214.93;;;;;;
+153;153;NEGRO;31;10003094;Laisse Evangelista Santos;190.91;;;;;;
+154;154;AMPLA;106;10000268;Nadia Braga de Lima Saraiva Fernandes;214.74;FIM DE FILA;;;;;
+155;155;AMPLA;107;10006186;Max Alan Pimenta Pena;214.55;;;;;;
+156;156;AMPLA;108;10000724;Clara Teixeira de Carvalho Bevilaqua;214.46;;;;;;
+157;157;AMPLA;109;10006376;Guilherme Henrique Santos Silva;214.44;;;;;;
+158;158;NEGRO;32;10001368;Marcio Kleber Ramos Filho;190.69;;;;;;
+159;159;AMPLA;110;10001118;Nubia Gomes Barbosa;214.3;FIM DE FILA;;;TCDF;;PEDIR FIM FILA FOI NOMEADA
+160;160;AMPLA;111;10004561;Jose Evilasio Barros Junior;214.05;;;;;;
+161;161;AMPLA;112;10000519;Rodrigo Gomes Rodrigues;214.04;FIM DE FILA;;;;;
+162;162;AMPLA;113;10002048;Launelle Cardozo Martins;213.98;;;;;;
+163;163;NEGRO;33;10003704;Sergio Garcia Fernandes;190.35;;;;;;
+164;164;AMPLA;114;10001507;Raissa Alecrim Ferreira;213.91;;;;;;
+165;165;AMPLA;115;10000538;Vanize de Freitas Guimaraes;213.87;;;;;;
+166;166;AMPLA;116;10006901;Bruna Martins Machado;213.81;FIM DE FILA;;;TCDF;;PEDIR FIM FILA FOI NOMEADA
+167;167;AMPLA;117;10002300;Rejane de Martins e Pinheiro;213.51;;;;;;
+168;168;NEGRO;34;10003941;Josiclene Silva Ponte de Brito;189.53;;SUBJUDICE;;;;
+169;169;AMPLA;118;10001078;Alexandre Jose da Silva Garrote;213.33;;;;;;
+170;170;AMPLA;119;10005289;Mateus Coelho Ferreira;213.05;;;;;;
+171;171;AMPLA;120;10005484;Phillipi Barack Carvalho de Macedo;213.02;;;;;;
+172;172;AMPLA;121;10001860;Priscila Dias de Almeida;212.96;;;;;;
+173;173;NEGRO;35;10006038;Erivelton Maximo Fonseca;188.97;;;;;;
+174;174;AMPLA;122;10001259;Fabiana Braga Lopes;212.81;;;;TCU;;
+175;175;AMPLA;123;10007063;Marcelo Ferreira Hallac;212.7;;;;;;
+176;176;AMPLA;124;10003749;Priscila Aragao da Cruz;211.97;FIM DE FILA;;;TCDF;;
+177;177;AMPLA;125;10001303;Hugo da Costa Melo Gomes Ferreira;211.8;;;;;;
+178;178;NEGRO;36;10000755;Gabriel Pereira Mendes;188.73;;;;;;
+179;179;AMPLA;126;10006458;Iuri Ferrao de Albuquerque;211.74;FIM DE FILA;;;TCU;SENADO;
+180;180;AMPLA;127;10003477;Isabella de Carvalho Scherrer;211.65;;;;;;
+181;181;AMPLA;128;10000929;Caio Carvalho Correia Barros;211.5;;SUBJUDICE;;;;
+182;182;AMPLA;129;10004239;Rafael Brandt;211.44;;;;;;
+183;183;NEGRO;37;10007492;Raquel Madureira de Araujo;188.36;;;;;;
+184;184;AMPLA;130;10000819;Barbara Avelar Cesar Moreira;211.12;;;;;;
+185;185;AMPLA;131;10004463;Henrique Otavio de Padua Borges;211.08;;;;;;
+186;186;AMPLA;132;10003254;Lara Santos Aguiar Dantas;210.79;;;;;;
+187;187;AMPLA;133;10001806;Carlos Alexandre Ataide dos Santos;210.58;;;;;;
+188;188;NEGRO;38;10007841;Debora Maria Franca Rodrigues;187.93;;SUBJUDICE;;;;
+189;189;AMPLA;134;10002818;Rafael Silva Antunes Quaresma;210.32;FIM DE FILA;;;;;
+190;190;AMPLA;135;10006250;Joao Paulo Alves da Cunha;210.08;;;;;;
+191;191;AMPLA;136;10000745;Yara Maues Batista;209.92;;;;;;
+192;192;AMPLA;137;10002649;Jonatas Dutra Gomes;209.65;;;;;;
+193;193;NEGRO;39;10007497;Matheus Santos Nascentes da Silva;187.55;;;;;;
+194;194;AMPLA;138;10005748;Paulo Thiago Galvao Mascarenhas;209.47;FIM DE FILA;;;TCDF;;
+195;195;AMPLA;139;10003492;Katucia Lopes da Silva;209.15;FIM DE FILA;;;TCU;;
+196;196;AMPLA;140;10001651;Clarissa Rodrigues de Lima Barbosa;208.88;;;;;;
+197;197;AMPLA;141;10000931;Ana Giulia Pfau Machado;208.84;;;;;;
+198;198;NEGRO;40;10002547;Ana Paula dos Santos Silva Berte;187.52;;SUBJUDICE;;;;
+199;199;AMPLA;142;10005323;Giselle Kobata Kimura;208.73;;;;;;
+200;200;AMPLA;143;10000291;Ingrid Aparecida Monnerat de Lima;208.48;;;;;;
+201;201;AMPLA;144;10001663;Carlos Alexandre Alves da Cunha;208.34;FIM DE FILA;;;TCDF;;
+202;202;AMPLA;145;10007142;Jose Ribamar Sousa Duarte Junior;208.2;;;;;;
+203;203;NEGRO;41;10001914;Joao Vitor Santana Vieira;187.49;;;;;;
+204;204;AMPLA;146;10002242;Vitor Aguiar Pedrosa;208.04;;;;;;
+205;205;AMPLA;147;10002243;Igor Cruz da Silva;207.9;;;;;;
+206;206;AMPLA;148;10000705;Lucas Medeiros Sousa;207.84;;;;;;
+207;207;AMPLA;149;10001925;Igor Theodoroviz Barreto;206.93;;;;;;
+208;208;NEGRO;42;10003436;Elisete D Abadia Silva;184.62;;SUBJUDICE;;;;
+209;209;AMPLA;150;10003774;Ana Claudia de Souza Lopes;206.93;;;;;;
+210;210;AMPLA;151;10000097;Lais Kodama Correa de Moraes;205.72;FIM DE FILA;SUBJUDICE;;TCDF;;
+211;211;AMPLA;152;10003624;Antilio Fernandes Filho;205.04;;SUBJUDICE;;;;
+212;212;AMPLA;153;10003300;Claudia Regina dos Santos;204.91;;;;;;
+213;213;NEGRO;43;10007535;Renata de Jesus Araujo;184.17;;SUBJUDICE;;;;
+214;214;AMPLA;154;10004163;Angela Alvarenga Frutuoso;202.16;;;;;;
