@@ -1,16 +1,17 @@
-let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [] };
+let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [] };
 let CARGO = 'FC'; // 'FC' or 'PO'
 
 async function loadData() {
-  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica] = await Promise.all([
+  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes] = await Promise.all([
     fetch('data/nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/nomeacoes-po.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/vacancias.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/sem-efeito.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/impacto.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/defesa-tecnica.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/dodf-nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
   ]);
-  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica };
+  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes };
 }
 
 function currentNomeacoes() {
@@ -139,6 +140,27 @@ function renderResumo() {
       <div class="bar-value">${anoCounts[ano]}</div>
     </div>`).join('');
   document.getElementById('vacancias-chart').innerHTML = anoHtml;
+
+  renderDodfNomeacoes();
+}
+
+function renderDodfNomeacoes() {
+  const html = DATA.dodfNomeacoes.map((d, i) => `
+    <div class="dodf-item">
+      <div class="dodf-header">
+        <span class="dodf-index">${i + 1}</span>
+        <div>
+          <div class="dodf-data">${d.data}</div>
+          <a href="${d.link}" target="_blank" rel="noopener">${d.dodf} — Acessar documento →</a>
+        </div>
+      </div>
+      <div class="dodf-summary">
+        <span class="badge badge-sim">${d.totalFc} nomeados — Finanças e Controle</span>
+        <span class="badge badge-sim">${d.totalPo} nomeados — Planejamento e Orçamento</span>
+        <span class="badge badge-neutro">${d.totalFc + d.totalPo} no total</span>
+      </div>
+    </div>`).join('');
+  document.getElementById('dodf-nomeacoes-list').innerHTML = html;
 }
 
 // ---------- Ordem de Nomeação ----------

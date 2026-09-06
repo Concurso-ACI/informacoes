@@ -253,6 +253,51 @@ h3 { color: var(--gold-soft); }
   accent-color: var(--gold);
   height: 6px;
 }
+.dodf-panel {
+  margin-top: 16px;
+}
+.dodf-item {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.dodf-item:last-child { border-bottom: none; }
+.dodf-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.dodf-index {
+  background: var(--gold);
+  color: #14171f;
+  font-weight: 700;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+}
+.dodf-data {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-bottom: 2px;
+}
+.dodf-header a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.dodf-header a:hover { text-decoration: underline; }
+.dodf-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+  margin-left: 38px;
+}
+
 .slider-value-badge {
   background: var(--gold);
   color: #14171f;
