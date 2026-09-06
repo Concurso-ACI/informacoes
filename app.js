@@ -68,6 +68,15 @@ function fillSelect(select, values, allLabel) {
     values.map(v => `<option value="${v}">${v}</option>`).join('');
 }
 
+const A_NOMEAR = '__A_NOMEAR__';
+
+function fillSituacaoSelect(select, nomeacoes, allLabel) {
+  const values = uniqueValues(nomeacoes, 'situacao');
+  select.innerHTML = `<option value="">${allLabel}: todos</option>` +
+    `<option value="${A_NOMEAR}">A nomear</option>` +
+    values.map(v => `<option value="${v}">${v}</option>`).join('');
+}
+
 // ---------- Resumo ----------
 function renderResumo() {
   const nomeacoes = currentNomeacoes();
@@ -142,7 +151,7 @@ function renderNomeacaoFilters() {
       <button id="f-export" class="primary">Exportar CSV</button>
     `;
     fillSelect(document.getElementById('f-tipoVaga'), uniqueValues(nomeacoes, 'tipoVaga'), 'Tipo de vaga');
-    fillSelect(document.getElementById('f-situacao'), uniqueValues(nomeacoes, 'situacao'), 'Situação');
+    fillSituacaoSelect(document.getElementById('f-situacao'), nomeacoes, 'Situação');
     fillSelect(document.getElementById('f-cgdfPo'), uniqueValues(nomeacoes, 'cgdfPo'), 'CGDF-PO');
     fillSelect(document.getElementById('f-tcdfTcu'), uniqueValues(nomeacoes, 'tcdfTcu'), 'TCDF/TCU');
     fillSelect(document.getElementById('f-senadoCamara'), uniqueValues(nomeacoes, 'senadoCamara'), 'Senado/Câmara/RFB');
@@ -156,7 +165,7 @@ function renderNomeacaoFilters() {
       <button id="f-export" class="primary">Exportar CSV</button>
     `;
     fillSelect(document.getElementById('f-tipoVaga'), uniqueValues(nomeacoes, 'tipoVaga'), 'Tipo de vaga');
-    fillSelect(document.getElementById('f-situacao'), uniqueValues(nomeacoes, 'situacao'), 'Situação');
+    fillSituacaoSelect(document.getElementById('f-situacao'), nomeacoes, 'Situação');
   }
 
   el.querySelectorAll('select, input').forEach(input => {
@@ -184,7 +193,8 @@ function getFilteredNomeacoes() {
     return nomeacoes.filter(n => {
       if (nome && !n.nome.toLowerCase().includes(nome) && !n.inscricao.includes(nome)) return false;
       if (tipoVaga && n.tipoVaga !== tipoVaga) return false;
-      if (situacao && n.situacao !== situacao) return false;
+      if (situacao === A_NOMEAR) { if (n.situacao && String(n.situacao).trim()) return false; }
+      else if (situacao && n.situacao !== situacao) return false;
       if (cgdfPo && n.cgdfPo !== cgdfPo) return false;
       if (tcdfTcu && n.tcdfTcu !== tcdfTcu) return false;
       if (senadoCamara && n.senadoCamara !== senadoCamara) return false;
@@ -195,7 +205,8 @@ function getFilteredNomeacoes() {
   return nomeacoes.filter(n => {
     if (nome && !n.nome.toLowerCase().includes(nome) && !String(n.inscricao).includes(nome)) return false;
     if (tipoVaga && n.tipoVaga !== tipoVaga) return false;
-    if (situacao && n.situacao !== situacao) return false;
+    if (situacao === A_NOMEAR) { if (n.situacao && String(n.situacao).trim()) return false; }
+    else if (situacao && n.situacao !== situacao) return false;
     return true;
   });
 }
