@@ -266,7 +266,7 @@ function renderNomeacaoTable() {
         <td>${i + 1}</td>
         <td>${n.ordem ?? '—'}</td>
         <td>${n.tipoVaga || '—'}</td>
-        <td>${n.inscricao}</td>
+        <td>${n.inscricao ?? '—'}</td>
         <td>${n.nome}</td>
         <td>${n.notaAntesCF ?? '—'}</td>
         <td>${n.notaCF ?? '—'}</td>

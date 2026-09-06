@@ -531,5 +531,31 @@
 "observacao": null,
 "foiNomeado": false,
 "nomeacaoRef": null
+},
+{
+"inscricao": null,
+"nome": "Andryani Piacini",
+"tipoVaga": "Ampla",
+"notaAntesCF": null,
+"notaCF": null,
+"notaFinal": null,
+"ordem": 16,
+"situacao": "FINAL DE FILA",
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
+},
+{
+"inscricao": null,
+"nome": "Andressa Cervellini de Farias Parpinelli",
+"tipoVaga": "Ampla",
+"notaAntesCF": null,
+"notaCF": null,
+"notaFinal": null,
+"ordem": 17,
+"situacao": "FINAL DE FILA",
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 }
 ]
