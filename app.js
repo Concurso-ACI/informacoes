@@ -50,6 +50,15 @@ function renderCargoSwitch(containerId, onChange) {
   });
 }
 
+function mapSituacao(raw) {
+  const s = (raw && String(raw).trim().toUpperCase()) || '';
+  if (!s) return 'Aprovados a nomear';
+  if (s === 'SIM' || s === 'SIM**') return 'SIM';
+  if (s.includes('FILA')) return 'FIM DE FILA';
+  if (s === 'DESISTÊNCIA' || s === 'DESISTIU DO PROCESSO') return 'DESISTÊNCIA';
+  return raw.trim();
+}
+
 function situacaoBadge(situacao) {
   if (!situacao) return '<span class="badge badge-neutro">—</span>';
   const s = situacao.toUpperCase();
@@ -111,10 +120,10 @@ function renderResumo() {
       <div class="label">${c.label}</div>
     </div>`).join('');
 
-  // Situação chart
+  // Situação chart — estático, soma FC + PO com de-para de rótulos
   const situacaoCounts = {};
-  nomeacoes.forEach(n => {
-    const key = (n.situacao && String(n.situacao).trim()) || 'Aprovados a nomear';
+  [...DATA.nomeacoesFc, ...DATA.nomeacoesPo].forEach(n => {
+    const key = mapSituacao(n.situacao);
     situacaoCounts[key] = (situacaoCounts[key] || 0) + 1;
   });
   const maxSit = Math.max(...Object.values(situacaoCounts));
