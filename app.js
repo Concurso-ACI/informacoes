@@ -1,8 +1,8 @@
-let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [] };
+let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [], ocupacaoCargos: [] };
 let CARGO = 'FC'; // 'FC' or 'PO'
 
 async function loadData() {
-  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes] = await Promise.all([
+  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos] = await Promise.all([
     fetch('data/nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/nomeacoes-po.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/vacancias.json', { cache: 'no-store' }).then(r => r.json()),
@@ -10,8 +10,9 @@ async function loadData() {
     fetch('data/impacto.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/defesa-tecnica.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/dodf-nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/ocupacao-cargos.json', { cache: 'no-store' }).then(r => r.json()),
   ]);
-  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes };
+  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos };
 }
 
 function currentNomeacoes() {
@@ -481,6 +482,85 @@ function renderDefesaTecnica() {
   `;
 }
 
+// ---------- Ocupação dos Cargos ----------
+function buildOcupacaoSvg(data) {
+  const w = 900, h = 260, padL = 40, padR = 10, padT = 10, padB = 30;
+  const innerW = w - padL - padR, innerH = h - padT - padB;
+  const n = data.length;
+  const maxY = 100;
+  const points = data.map((d, i) => {
+    const x = padL + (i / (n - 1)) * innerW;
+    const y = padT + innerH - (d.taxaOcupacao / maxY) * innerH;
+    return [x, y];
+  });
+  const linePath = points.map((p, i) => (i === 0 ? 'M' : 'L') + p[0].toFixed(1) + ',' + p[1].toFixed(1)).join(' ');
+  const areaPath = linePath + ` L${points[points.length - 1][0].toFixed(1)},${padT + innerH} L${points[0][0].toFixed(1)},${padT + innerH} Z`;
+
+  const gridLines = [0, 25, 50, 75, 100].map(v => {
+    const y = padT + innerH - (v / maxY) * innerH;
+    return `<line x1="${padL}" y1="${y}" x2="${w - padR}" y2="${y}" stroke="#2a2f3a" stroke-width="1"/>
+      <text x="${padL - 6}" y="${y + 4}" text-anchor="end" font-size="10" fill="#9a9686">${v}%</text>`;
+  }).join('');
+
+  const labelStep = Math.ceil(n / 12);
+  const xLabels = data.map((d, i) => {
+    if (i % labelStep !== 0 && i !== n - 1) return '';
+    const x = padL + (i / (n - 1)) * innerW;
+    return `<text x="${x}" y="${h - 8}" text-anchor="middle" font-size="9" fill="#9a9686">${d.mesAno}</text>`;
+  }).join('');
+
+  const dots = points.map((p, i) => `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="2.5" fill="#d4af37" data-idx="${i}" class="ocup-dot"></circle>`).join('');
+
+  return `<svg viewBox="0 0 ${w} ${h}" class="ocupacao-svg" xmlns="http://www.w3.org/2000/svg">
+    ${gridLines}
+    <path d="${areaPath}" fill="rgba(212,175,55,0.15)" stroke="none"/>
+    <path d="${linePath}" fill="none" stroke="#d4af37" stroke-width="2"/>
+    ${dots}
+    ${xLabels}
+  </svg>`;
+}
+
+function renderOcupacaoMes(mesAno) {
+  const d = DATA.ocupacaoCargos.find(x => x.mesAno === mesAno) || DATA.ocupacaoCargos[DATA.ocupacaoCargos.length - 1];
+  document.getElementById('ocupacao-cards').innerHTML = `
+    <div class="card"><div class="value">${d.mesAno}</div><div class="label">Mês de referência</div></div>
+    <div class="card"><div class="value">${d.total}</div><div class="label">Total de cargos</div></div>
+    <div class="card"><div class="value">${d.ocupados}</div><div class="label">Cargos ocupados</div></div>
+    <div class="card"><div class="value">${d.vagos}</div><div class="label">Cargos vagos</div></div>
+    <div class="card"><div class="value">${d.taxaOcupacao.toFixed(2)}%</div><div class="label">Taxa de ocupação</div></div>
+  `;
+  document.getElementById('ocupacao-mes-select').value = d.mesAno;
+}
+
+function renderOcupacao() {
+  const data = DATA.ocupacaoCargos;
+  const totalCargos = data[0].total;
+  const options = data.map(d => `<option value="${d.mesAno}">${d.mesAno}</option>`).join('');
+
+  document.getElementById('ocupacao-content').innerHTML = `
+    <p class="impacto-note">Cargo <strong>Auditor de Controle Interno</strong> — total de <strong>${totalCargos}</strong> cargos no Quadro de Pessoal do GDF (fonte: Portal da Transparência do DF, série de 01/2021 a 07/2026).</p>
+
+    <div class="panel-box">
+      <h3>Evolução da taxa de ocupação</h3>
+      <div id="ocupacao-chart"></div>
+    </div>
+
+    <div class="panel-box slider-box">
+      <h3>Selecionar mês</h3>
+      <div class="slider-row">
+        <select id="ocupacao-mes-select">${options}</select>
+      </div>
+    </div>
+
+    <div class="cards" id="ocupacao-cards"></div>
+  `;
+
+  document.getElementById('ocupacao-chart').innerHTML = buildOcupacaoSvg(data);
+  renderOcupacaoMes(data[data.length - 1].mesAno);
+
+  document.getElementById('ocupacao-mes-select').addEventListener('input', (e) => renderOcupacaoMes(e.target.value));
+}
+
 // ---------- CSV export ----------
 function exportCsv(rows, filename) {
   if (!rows.length) return;
@@ -517,6 +597,7 @@ async function init() {
   renderSemEfeitoTable();
   renderImpacto();
   renderDefesaTecnica();
+  renderOcupacao();
 }
 
 init();

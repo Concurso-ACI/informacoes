@@ -298,6 +298,27 @@ h3 { color: var(--gold-soft); }
   margin-left: 38px;
 }
 
+.ocupacao-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.ocup-dot {
+  cursor: pointer;
+}
+.ocup-dot:hover {
+  r: 4.5;
+}
+#ocupacao-mes-select {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel-alt);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
 .slider-value-badge {
   background: var(--gold);
   color: #14171f;

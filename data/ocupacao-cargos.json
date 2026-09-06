@@ -1,0 +1,605 @@
+[
+{
+"mesAno": "01/2021",
+"ano": 2021,
+"mes": 1,
+"vagos": 379,
+"ocupados": 251,
+"total": 630,
+"taxaOcupacao": 39.84
+},
+{
+"mesAno": "02/2021",
+"ano": 2021,
+"mes": 2,
+"vagos": 380,
+"ocupados": 250,
+"total": 630,
+"taxaOcupacao": 39.68
+},
+{
+"mesAno": "03/2021",
+"ano": 2021,
+"mes": 3,
+"vagos": 380,
+"ocupados": 250,
+"total": 630,
+"taxaOcupacao": 39.68
+},
+{
+"mesAno": "04/2021",
+"ano": 2021,
+"mes": 4,
+"vagos": 381,
+"ocupados": 249,
+"total": 630,
+"taxaOcupacao": 39.52
+},
+{
+"mesAno": "05/2021",
+"ano": 2021,
+"mes": 5,
+"vagos": 381,
+"ocupados": 249,
+"total": 630,
+"taxaOcupacao": 39.52
+},
+{
+"mesAno": "06/2021",
+"ano": 2021,
+"mes": 6,
+"vagos": 382,
+"ocupados": 248,
+"total": 630,
+"taxaOcupacao": 39.37
+},
+{
+"mesAno": "07/2021",
+"ano": 2021,
+"mes": 7,
+"vagos": 382,
+"ocupados": 248,
+"total": 630,
+"taxaOcupacao": 39.37
+},
+{
+"mesAno": "08/2021",
+"ano": 2021,
+"mes": 8,
+"vagos": 382,
+"ocupados": 248,
+"total": 630,
+"taxaOcupacao": 39.37
+},
+{
+"mesAno": "09/2021",
+"ano": 2021,
+"mes": 9,
+"vagos": 382,
+"ocupados": 248,
+"total": 630,
+"taxaOcupacao": 39.37
+},
+{
+"mesAno": "10/2021",
+"ano": 2021,
+"mes": 10,
+"vagos": 383,
+"ocupados": 247,
+"total": 630,
+"taxaOcupacao": 39.21
+},
+{
+"mesAno": "11/2021",
+"ano": 2021,
+"mes": 11,
+"vagos": 384,
+"ocupados": 246,
+"total": 630,
+"taxaOcupacao": 39.05
+},
+{
+"mesAno": "12/2021",
+"ano": 2021,
+"mes": 12,
+"vagos": 384,
+"ocupados": 246,
+"total": 630,
+"taxaOcupacao": 39.05
+},
+{
+"mesAno": "01/2022",
+"ano": 2022,
+"mes": 1,
+"vagos": 384,
+"ocupados": 246,
+"total": 630,
+"taxaOcupacao": 39.05
+},
+{
+"mesAno": "02/2022",
+"ano": 2022,
+"mes": 2,
+"vagos": 385,
+"ocupados": 245,
+"total": 630,
+"taxaOcupacao": 38.89
+},
+{
+"mesAno": "03/2022",
+"ano": 2022,
+"mes": 3,
+"vagos": 385,
+"ocupados": 245,
+"total": 630,
+"taxaOcupacao": 38.89
+},
+{
+"mesAno": "04/2022",
+"ano": 2022,
+"mes": 4,
+"vagos": 385,
+"ocupados": 245,
+"total": 630,
+"taxaOcupacao": 38.89
+},
+{
+"mesAno": "05/2022",
+"ano": 2022,
+"mes": 5,
+"vagos": 388,
+"ocupados": 242,
+"total": 630,
+"taxaOcupacao": 38.41
+},
+{
+"mesAno": "06/2022",
+"ano": 2022,
+"mes": 6,
+"vagos": 388,
+"ocupados": 242,
+"total": 630,
+"taxaOcupacao": 38.41
+},
+{
+"mesAno": "07/2022",
+"ano": 2022,
+"mes": 7,
+"vagos": 297,
+"ocupados": 333,
+"total": 630,
+"taxaOcupacao": 52.86
+},
+{
+"mesAno": "08/2022",
+"ano": 2022,
+"mes": 8,
+"vagos": 297,
+"ocupados": 333,
+"total": 630,
+"taxaOcupacao": 52.86
+},
+{
+"mesAno": "09/2022",
+"ano": 2022,
+"mes": 9,
+"vagos": 297,
+"ocupados": 333,
+"total": 630,
+"taxaOcupacao": 52.86
+},
+{
+"mesAno": "10/2022",
+"ano": 2022,
+"mes": 10,
+"vagos": 300,
+"ocupados": 330,
+"total": 630,
+"taxaOcupacao": 52.38
+},
+{
+"mesAno": "11/2022",
+"ano": 2022,
+"mes": 11,
+"vagos": 299,
+"ocupados": 331,
+"total": 630,
+"taxaOcupacao": 52.54
+},
+{
+"mesAno": "12/2022",
+"ano": 2022,
+"mes": 12,
+"vagos": 299,
+"ocupados": 331,
+"total": 630,
+"taxaOcupacao": 52.54
+},
+{
+"mesAno": "01/2023",
+"ano": 2023,
+"mes": 1,
+"vagos": 391,
+"ocupados": 239,
+"total": 630,
+"taxaOcupacao": 37.94
+},
+{
+"mesAno": "02/2023",
+"ano": 2023,
+"mes": 2,
+"vagos": 391,
+"ocupados": 239,
+"total": 630,
+"taxaOcupacao": 37.94
+},
+{
+"mesAno": "03/2023",
+"ano": 2023,
+"mes": 3,
+"vagos": 392,
+"ocupados": 238,
+"total": 630,
+"taxaOcupacao": 37.78
+},
+{
+"mesAno": "04/2023",
+"ano": 2023,
+"mes": 4,
+"vagos": 391,
+"ocupados": 239,
+"total": 630,
+"taxaOcupacao": 37.94
+},
+{
+"mesAno": "05/2023",
+"ano": 2023,
+"mes": 5,
+"vagos": 393,
+"ocupados": 237,
+"total": 630,
+"taxaOcupacao": 37.62
+},
+{
+"mesAno": "06/2023",
+"ano": 2023,
+"mes": 6,
+"vagos": 393,
+"ocupados": 237,
+"total": 630,
+"taxaOcupacao": 37.62
+},
+{
+"mesAno": "07/2023",
+"ano": 2023,
+"mes": 7,
+"vagos": 393,
+"ocupados": 237,
+"total": 630,
+"taxaOcupacao": 37.62
+},
+{
+"mesAno": "08/2023",
+"ano": 2023,
+"mes": 8,
+"vagos": 394,
+"ocupados": 236,
+"total": 630,
+"taxaOcupacao": 37.46
+},
+{
+"mesAno": "09/2023",
+"ano": 2023,
+"mes": 9,
+"vagos": 395,
+"ocupados": 235,
+"total": 630,
+"taxaOcupacao": 37.3
+},
+{
+"mesAno": "10/2023",
+"ano": 2023,
+"mes": 10,
+"vagos": 395,
+"ocupados": 235,
+"total": 630,
+"taxaOcupacao": 37.3
+},
+{
+"mesAno": "11/2023",
+"ano": 2023,
+"mes": 11,
+"vagos": 397,
+"ocupados": 233,
+"total": 630,
+"taxaOcupacao": 36.98
+},
+{
+"mesAno": "12/2023",
+"ano": 2023,
+"mes": 12,
+"vagos": 398,
+"ocupados": 232,
+"total": 630,
+"taxaOcupacao": 36.83
+},
+{
+"mesAno": "01/2024",
+"ano": 2024,
+"mes": 1,
+"vagos": 398,
+"ocupados": 232,
+"total": 630,
+"taxaOcupacao": 36.83
+},
+{
+"mesAno": "02/2024",
+"ano": 2024,
+"mes": 2,
+"vagos": 401,
+"ocupados": 229,
+"total": 630,
+"taxaOcupacao": 36.35
+},
+{
+"mesAno": "03/2024",
+"ano": 2024,
+"mes": 3,
+"vagos": 401,
+"ocupados": 229,
+"total": 630,
+"taxaOcupacao": 36.35
+},
+{
+"mesAno": "04/2024",
+"ano": 2024,
+"mes": 4,
+"vagos": 401,
+"ocupados": 229,
+"total": 630,
+"taxaOcupacao": 36.35
+},
+{
+"mesAno": "05/2024",
+"ano": 2024,
+"mes": 5,
+"vagos": 402,
+"ocupados": 228,
+"total": 630,
+"taxaOcupacao": 36.19
+},
+{
+"mesAno": "06/2024",
+"ano": 2024,
+"mes": 6,
+"vagos": 402,
+"ocupados": 228,
+"total": 630,
+"taxaOcupacao": 36.19
+},
+{
+"mesAno": "07/2024",
+"ano": 2024,
+"mes": 7,
+"vagos": 402,
+"ocupados": 228,
+"total": 630,
+"taxaOcupacao": 36.19
+},
+{
+"mesAno": "08/2024",
+"ano": 2024,
+"mes": 8,
+"vagos": 406,
+"ocupados": 224,
+"total": 630,
+"taxaOcupacao": 35.56
+},
+{
+"mesAno": "09/2024",
+"ano": 2024,
+"mes": 9,
+"vagos": 408,
+"ocupados": 222,
+"total": 630,
+"taxaOcupacao": 35.24
+},
+{
+"mesAno": "10/2024",
+"ano": 2024,
+"mes": 10,
+"vagos": 408,
+"ocupados": 222,
+"total": 630,
+"taxaOcupacao": 35.24
+},
+{
+"mesAno": "11/2024",
+"ano": 2024,
+"mes": 11,
+"vagos": 409,
+"ocupados": 221,
+"total": 630,
+"taxaOcupacao": 35.08
+},
+{
+"mesAno": "12/2024",
+"ano": 2024,
+"mes": 12,
+"vagos": 351,
+"ocupados": 279,
+"total": 630,
+"taxaOcupacao": 44.29
+},
+{
+"mesAno": "01/2025",
+"ano": 2025,
+"mes": 1,
+"vagos": 349,
+"ocupados": 281,
+"total": 630,
+"taxaOcupacao": 44.6
+},
+{
+"mesAno": "02/2025",
+"ano": 2025,
+"mes": 2,
+"vagos": 350,
+"ocupados": 280,
+"total": 630,
+"taxaOcupacao": 44.44
+},
+{
+"mesAno": "03/2025",
+"ano": 2025,
+"mes": 3,
+"vagos": 354,
+"ocupados": 276,
+"total": 630,
+"taxaOcupacao": 43.81
+},
+{
+"mesAno": "04/2025",
+"ano": 2025,
+"mes": 4,
+"vagos": 359,
+"ocupados": 271,
+"total": 630,
+"taxaOcupacao": 43.02
+},
+{
+"mesAno": "05/2025",
+"ano": 2025,
+"mes": 5,
+"vagos": 361,
+"ocupados": 269,
+"total": 630,
+"taxaOcupacao": 42.7
+},
+{
+"mesAno": "06/2025",
+"ano": 2025,
+"mes": 6,
+"vagos": 361,
+"ocupados": 269,
+"total": 630,
+"taxaOcupacao": 42.7
+},
+{
+"mesAno": "07/2025",
+"ano": 2025,
+"mes": 7,
+"vagos": 364,
+"ocupados": 266,
+"total": 630,
+"taxaOcupacao": 42.22
+},
+{
+"mesAno": "08/2025",
+"ano": 2025,
+"mes": 8,
+"vagos": 366,
+"ocupados": 264,
+"total": 630,
+"taxaOcupacao": 41.9
+},
+{
+"mesAno": "09/2025",
+"ano": 2025,
+"mes": 9,
+"vagos": 369,
+"ocupados": 261,
+"total": 630,
+"taxaOcupacao": 41.43
+},
+{
+"mesAno": "10/2025",
+"ano": 2025,
+"mes": 10,
+"vagos": 370,
+"ocupados": 260,
+"total": 630,
+"taxaOcupacao": 41.27
+},
+{
+"mesAno": "11/2025",
+"ano": 2025,
+"mes": 11,
+"vagos": 372,
+"ocupados": 258,
+"total": 630,
+"taxaOcupacao": 40.95
+},
+{
+"mesAno": "12/2025",
+"ano": 2025,
+"mes": 12,
+"vagos": 372,
+"ocupados": 258,
+"total": 630,
+"taxaOcupacao": 40.95
+},
+{
+"mesAno": "01/2026",
+"ano": 2026,
+"mes": 1,
+"vagos": 372,
+"ocupados": 258,
+"total": 630,
+"taxaOcupacao": 40.95
+},
+{
+"mesAno": "02/2026",
+"ano": 2026,
+"mes": 2,
+"vagos": 374,
+"ocupados": 256,
+"total": 630,
+"taxaOcupacao": 40.63
+},
+{
+"mesAno": "03/2026",
+"ano": 2026,
+"mes": 3,
+"vagos": 376,
+"ocupados": 254,
+"total": 630,
+"taxaOcupacao": 40.32
+},
+{
+"mesAno": "04/2026",
+"ano": 2026,
+"mes": 4,
+"vagos": 358,
+"ocupados": 272,
+"total": 630,
+"taxaOcupacao": 43.17
+},
+{
+"mesAno": "05/2026",
+"ano": 2026,
+"mes": 5,
+"vagos": 361,
+"ocupados": 269,
+"total": 630,
+"taxaOcupacao": 42.7
+},
+{
+"mesAno": "06/2026",
+"ano": 2026,
+"mes": 6,
+"vagos": 365,
+"ocupados": 265,
+"total": 630,
+"taxaOcupacao": 42.06
+},
+{
+"mesAno": "07/2026",
+"ano": 2026,
+"mes": 7,
+"vagos": 365,
+"ocupados": 265,
+"total": 630,
+"taxaOcupacao": 42.06
+}
+]
