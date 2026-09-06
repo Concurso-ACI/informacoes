@@ -8,7 +8,9 @@
 "notaFinal": 272.33,
 "ordem": 1,
 "situacao": "EXONERAÇÃO",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10000995",
@@ -19,7 +21,9 @@
 "notaFinal": 259.1,
 "ordem": 2,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10000080",
@@ -30,7 +34,9 @@
 "notaFinal": 272.29,
 "ordem": 3,
 "situacao": "SIM",
-"observacao": "Nomeado no TCDF"
+"observacao": "Nomeado no TCDF",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10005536",
@@ -41,7 +47,9 @@
 "notaFinal": 256.5,
 "ordem": 4,
 "situacao": "FINAL DE FILA*",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10003686",
@@ -52,7 +60,9 @@
 "notaFinal": 268.79,
 "ordem": 5,
 "situacao": "FINAL DE FILA",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10003375",
@@ -63,7 +73,9 @@
 "notaFinal": 253.43,
 "ordem": 6,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10002832",
@@ -74,7 +86,9 @@
 "notaFinal": 246.1,
 "ordem": 7,
 "situacao": "FINAL DE FILA",
-"observacao": "SIM / Empossada no TCDF"
+"observacao": "SIM / Empossada no TCDF",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10001616",
@@ -85,7 +99,9 @@
 "notaFinal": 240.74,
 "ordem": 8,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10007237",
@@ -96,7 +112,9 @@
 "notaFinal": 264.48,
 "ordem": 9,
 "situacao": "SIM",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10005590",
@@ -107,7 +125,9 @@
 "notaFinal": 252.32,
 "ordem": 10,
 "situacao": "SIM",
-"observacao": "SIM / Final de fila em FC"
+"observacao": "SIM / Final de fila em FC",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "inscricao": "10001359",
@@ -118,7 +138,9 @@
 "notaFinal": 263.67,
 "ordem": 11,
 "situacao": "FINAL DE FILA",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10000649",
@@ -129,7 +151,9 @@
 "notaFinal": 242.03,
 "ordem": 12,
 "situacao": "FINAL DE FILA",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10000151",
@@ -140,7 +164,9 @@
 "notaFinal": 262.46,
 "ordem": 13,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10006292",
@@ -151,7 +177,9 @@
 "notaFinal": 262.41,
 "ordem": 14,
 "situacao": "SIM",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10003601",
@@ -162,7 +190,9 @@
 "notaFinal": 252.32,
 "ordem": 15,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10003133",
@@ -173,7 +203,9 @@
 "notaFinal": 262.41,
 "ordem": 16,
 "situacao": "EXONERAÇÃO",
-"observacao": "Posse no SENADO, vacância do cargo"
+"observacao": "Posse no SENADO, vacância do cargo",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10000892",
@@ -184,7 +216,9 @@
 "notaFinal": 234.2,
 "ordem": 17,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10001671",
@@ -195,7 +229,9 @@
 "notaFinal": 239.42,
 "ordem": 18,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10001029",
@@ -206,7 +242,9 @@
 "notaFinal": 262.27,
 "ordem": 19,
 "situacao": "FINAL DE FILA",
-"observacao": "FC"
+"observacao": "FC",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10000356",
@@ -217,7 +255,9 @@
 "notaFinal": 252.25,
 "ordem": 20,
 "situacao": "SIM",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10002825",
@@ -228,7 +268,9 @@
 "notaFinal": 261.89,
 "ordem": 21,
 "situacao": "FINAL DE FILA",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10001786",
@@ -239,7 +281,9 @@
 "notaFinal": 230.14,
 "ordem": 22,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "inscricao": "10003426",
@@ -250,7 +294,9 @@
 "notaFinal": 260.32,
 "ordem": 23,
 "situacao": "SIM",
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "inscricao": "10004162",
@@ -261,7 +307,9 @@
 "notaFinal": 244.58,
 "ordem": 24,
 "situacao": "SIM",
-"observacao": "SIM / **"
+"observacao": "SIM / **",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "inscricao": "10004662",
@@ -272,7 +320,9 @@
 "notaFinal": 257.29,
 "ordem": 25,
 "situacao": "SIM",
-"observacao": "SIM / Nomeado no TCDF"
+"observacao": "SIM / Nomeado no TCDF",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "inscricao": "10001095",
@@ -283,7 +333,9 @@
 "notaFinal": 229.03,
 "ordem": 26,
 "situacao": "SIM",
-"observacao": "Nomeado no TCDF"
+"observacao": "Nomeado no TCDF",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "inscricao": "10003096",
@@ -294,7 +346,9 @@
 "notaFinal": 220.96,
 "ordem": 27,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "inscricao": "10006967",
@@ -305,7 +359,9 @@
 "notaFinal": 257.11,
 "ordem": 28,
 "situacao": "SIM",
-"observacao": "SIM / Nomeado no TCDF"
+"observacao": "SIM / Nomeado no TCDF",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "inscricao": "10008152",
@@ -316,7 +372,9 @@
 "notaFinal": 244.54,
 "ordem": 29,
 "situacao": "FINAL DE FILA*",
-"observacao": "SIM / Empossado em FC"
+"observacao": "SIM / Empossado em FC",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10001399",
@@ -327,7 +385,9 @@
 "notaFinal": 273.53,
 "ordem": 30,
 "situacao": "SIM**",
-"observacao": "SIM / Empossada no TCDF"
+"observacao": "SIM / Empossada no TCDF",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia (exaurimento da lista)"
 },
 {
 "inscricao": "10005174",
@@ -338,7 +398,9 @@
 "notaFinal": 225.25,
 "ordem": 31,
 "situacao": "FINAL DE FILA*",
-"observacao": null
+"observacao": null,
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10001269",
@@ -349,7 +411,9 @@
 "notaFinal": 267.16,
 "ordem": 32,
 "situacao": "SIM**",
-"observacao": "Câmara / Empossado na Câmara"
+"observacao": "Câmara / Empossado na Câmara",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia (exaurimento da lista)"
 },
 {
 "inscricao": "10006802",
@@ -360,7 +424,9 @@
 "notaFinal": 261.36,
 "ordem": 33,
 "situacao": "FINAL DE FILA*",
-"observacao": "Posse AFT"
+"observacao": "Posse AFT",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10007441",
@@ -371,7 +437,9 @@
 "notaFinal": 244.33,
 "ordem": 34,
 "situacao": "FINAL DE FILA*",
-"observacao": "SIM / Empossada no Senado"
+"observacao": "SIM / Empossada no Senado",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10002569",
@@ -382,7 +450,9 @@
 "notaFinal": 221.81,
 "ordem": 35,
 "situacao": "SIM",
-"observacao": null
+"observacao": null,
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "inscricao": "10001901",
@@ -393,7 +463,9 @@
 "notaFinal": 242.26,
 "ordem": 36,
 "situacao": "FINAL DE FILA",
-"observacao": "SIM / Nomeada em FC **"
+"observacao": "SIM / Nomeada em FC **",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10005884",
@@ -404,7 +476,9 @@
 "notaFinal": 220.26,
 "ordem": 37,
 "situacao": "FINAL DE FILA*",
-"observacao": "senado / Empossada no Senado"
+"observacao": "senado / Empossada no Senado",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10001147",
@@ -415,7 +489,9 @@
 "notaFinal": 241.37,
 "ordem": 38,
 "situacao": null,
-"observacao": null
+"observacao": null,
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10006259",
@@ -426,7 +502,9 @@
 "notaFinal": 239.33,
 "ordem": 39,
 "situacao": null,
-"observacao": "SIM"
+"observacao": "SIM",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10006609",
@@ -437,7 +515,9 @@
 "notaFinal": 218.72,
 "ordem": 40,
 "situacao": null,
-"observacao": null
+"observacao": null,
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "inscricao": "10003394",
@@ -448,6 +528,8 @@
 "notaFinal": 198.37,
 "ordem": 41,
 "situacao": null,
-"observacao": null
+"observacao": null,
+"foiNomeado": false,
+"nomeacaoRef": null
 }
 ]

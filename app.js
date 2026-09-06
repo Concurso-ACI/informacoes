@@ -3,12 +3,12 @@ let CARGO = 'FC'; // 'FC' or 'PO'
 
 async function loadData() {
   const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica] = await Promise.all([
-    fetch('data/nomeacoes.json').then(r => r.json()),
-    fetch('data/nomeacoes-po.json').then(r => r.json()),
-    fetch('data/vacancias.json').then(r => r.json()),
-    fetch('data/sem-efeito.json').then(r => r.json()),
-    fetch('data/impacto.json').then(r => r.json()),
-    fetch('data/defesa-tecnica.json').then(r => r.json()),
+    fetch('data/nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/nomeacoes-po.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/vacancias.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/sem-efeito.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/impacto.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/defesa-tecnica.json', { cache: 'no-store' }).then(r => r.json()),
   ]);
   DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica };
 }
@@ -59,6 +59,12 @@ function situacaoBadge(situacao) {
   return `<span class="badge badge-neutro">${situacao}</span>`;
 }
 
+function jaNomeadoBadge(n) {
+  if (!n.foiNomeado) return '<span class="badge badge-neutro">Não</span>';
+  const title = n.nomeacaoRef ? ` title="${n.nomeacaoRef}"` : '';
+  return `<span class="badge badge-sim"${title}>Sim</span>`;
+}
+
 function uniqueValues(arr, key) {
   return [...new Set(arr.map(x => x[key]).filter(v => v !== undefined && v !== null && String(v).trim()))].sort();
 }
@@ -81,7 +87,8 @@ function fillSituacaoSelect(select, nomeacoes, allLabel) {
 function renderResumo() {
   const nomeacoes = currentNomeacoes();
   const total = nomeacoes.length;
-  const nomeados = nomeacoes.filter(n => n.situacao === 'SIM').length;
+  const nomeados = nomeacoes.filter(n => n.situacao === 'SIM' || n.situacao === 'SIM**').length;
+  const jaNomeados = nomeacoes.filter(n => n.foiNomeado).length;
   const fimDeFila = nomeacoes.filter(n => n.situacao && n.situacao.toUpperCase().includes('FIM DE FILA') || n.situacao && n.situacao.toUpperCase().includes('FINAL DE FILA')).length;
   const aprovadosANomear = nomeacoes.filter(n => !n.situacao || !String(n.situacao).trim()).length;
   const semEfeito = DATA.semEfeito.length;
@@ -90,7 +97,8 @@ function renderResumo() {
 
   const cards = [
     { label: `Total de candidatos (${cargoLabel()})`, value: total },
-    { label: 'Nomeados (SIM)', value: nomeados },
+    { label: 'Já nomeados (histórico)', value: jaNomeados },
+    { label: 'Ativos hoje (SIM)', value: nomeados },
     { label: 'Aprovados a nomear', value: aprovadosANomear },
     { label: 'Fim de fila', value: fimDeFila },
     { label: 'Tornados sem efeito', value: semEfeito },
@@ -143,6 +151,7 @@ function renderNomeacaoFilters() {
       <input type="text" id="f-nome" placeholder="Buscar por nome ou inscrição...">
       <select id="f-tipoVaga"></select>
       <select id="f-situacao"></select>
+      <select id="f-jaNomeado"></select>
       <select id="f-cgdfPo"></select>
       <select id="f-tcdfTcu"></select>
       <select id="f-senadoCamara"></select>
@@ -152,6 +161,7 @@ function renderNomeacaoFilters() {
     `;
     fillSelect(document.getElementById('f-tipoVaga'), uniqueValues(nomeacoes, 'tipoVaga'), 'Tipo de vaga');
     fillSituacaoSelect(document.getElementById('f-situacao'), nomeacoes, 'Situação');
+    fillSelect(document.getElementById('f-jaNomeado'), ['Sim', 'Não'], 'Já nomeado?');
     fillSelect(document.getElementById('f-cgdfPo'), uniqueValues(nomeacoes, 'cgdfPo'), 'CGDF-PO');
     fillSelect(document.getElementById('f-tcdfTcu'), uniqueValues(nomeacoes, 'tcdfTcu'), 'TCDF/TCU');
     fillSelect(document.getElementById('f-senadoCamara'), uniqueValues(nomeacoes, 'senadoCamara'), 'Senado/Câmara/RFB');
@@ -161,11 +171,13 @@ function renderNomeacaoFilters() {
       <input type="text" id="f-nome" placeholder="Buscar por nome ou inscrição...">
       <select id="f-tipoVaga"></select>
       <select id="f-situacao"></select>
+      <select id="f-jaNomeado"></select>
       <button id="f-clear">Limpar filtros</button>
       <button id="f-export" class="primary">Exportar CSV</button>
     `;
     fillSelect(document.getElementById('f-tipoVaga'), uniqueValues(nomeacoes, 'tipoVaga'), 'Tipo de vaga');
     fillSituacaoSelect(document.getElementById('f-situacao'), nomeacoes, 'Situação');
+    fillSelect(document.getElementById('f-jaNomeado'), ['Sim', 'Não'], 'Já nomeado?');
   }
 
   el.querySelectorAll('select, input').forEach(input => {
@@ -184,6 +196,7 @@ function getFilteredNomeacoes() {
   const nome = document.getElementById('f-nome').value.toLowerCase();
   const tipoVaga = document.getElementById('f-tipoVaga').value;
   const situacao = document.getElementById('f-situacao').value;
+  const jaNomeado = document.getElementById('f-jaNomeado').value;
 
   if (CARGO === 'FC') {
     const cgdfPo = document.getElementById('f-cgdfPo').value;
@@ -195,6 +208,8 @@ function getFilteredNomeacoes() {
       if (tipoVaga && n.tipoVaga !== tipoVaga) return false;
       if (situacao === A_NOMEAR) { if (n.situacao && String(n.situacao).trim()) return false; }
       else if (situacao && n.situacao !== situacao) return false;
+      if (jaNomeado === 'Sim' && !n.foiNomeado) return false;
+      if (jaNomeado === 'Não' && n.foiNomeado) return false;
       if (cgdfPo && n.cgdfPo !== cgdfPo) return false;
       if (tcdfTcu && n.tcdfTcu !== tcdfTcu) return false;
       if (senadoCamara && n.senadoCamara !== senadoCamara) return false;
@@ -207,6 +222,8 @@ function getFilteredNomeacoes() {
     if (tipoVaga && n.tipoVaga !== tipoVaga) return false;
     if (situacao === A_NOMEAR) { if (n.situacao && String(n.situacao).trim()) return false; }
     else if (situacao && n.situacao !== situacao) return false;
+    if (jaNomeado === 'Sim' && !n.foiNomeado) return false;
+    if (jaNomeado === 'Não' && n.foiNomeado) return false;
     return true;
   });
 }
@@ -233,6 +250,7 @@ function renderNomeacaoTable() {
         <td>${n.nome}</td>
         <td>${n.pontuacao.toFixed(2)}</td>
         <td>${situacaoBadge(n.situacao)}</td>
+        <td>${jaNomeadoBadge(n)}</td>
         <td>${n.subjudice || '—'}</td>
         <td>${n.cgdfPo || '—'}</td>
         <td>${n.tcdfTcu || '—'}</td>
@@ -254,6 +272,7 @@ function renderNomeacaoTable() {
         <td>${n.notaCF ?? '—'}</td>
         <td>${n.notaFinal ?? '—'}</td>
         <td>${situacaoBadge(n.situacao)}</td>
+        <td>${jaNomeadoBadge(n)}</td>
         <td>${n.observacao || '—'}</td>
       </tr>`).join('');
   }

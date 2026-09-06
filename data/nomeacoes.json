@@ -12,7 +12,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "SENADO",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 2,
@@ -27,7 +29,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 3,
@@ -42,7 +46,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": "TORNAR SEM EFEITO"
+"observacao": "TORNAR SEM EFEITO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 4,
@@ -57,7 +63,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "TCDF",
 "senadoCamara": "CÂMARA",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 5,
@@ -72,7 +80,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": null
 },
 {
 "ordem": 6,
@@ -87,7 +97,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 7,
@@ -102,7 +114,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 8,
@@ -117,7 +131,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 9,
@@ -132,7 +148,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 10,
@@ -147,7 +165,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 11,
@@ -162,7 +182,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 12,
@@ -177,7 +199,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 13,
@@ -192,7 +216,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 14,
@@ -207,7 +233,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 15,
@@ -222,7 +250,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "PROCURAR EXONERAÇÃO"
+"observacao": "PROCURAR EXONERAÇÃO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 16,
@@ -237,7 +267,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "PROCURAR EXONERAÇÃO"
+"observacao": "PROCURAR EXONERAÇÃO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 17,
@@ -252,7 +284,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 18,
@@ -267,7 +301,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 19,
@@ -282,7 +318,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 20,
@@ -297,7 +335,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 21,
@@ -312,7 +352,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 22,
@@ -327,7 +369,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 23,
@@ -342,7 +386,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": null
 },
 {
 "ordem": 24,
@@ -357,7 +403,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 25,
@@ -372,7 +420,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 26,
@@ -387,7 +437,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "SENADO",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 27,
@@ -402,7 +454,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 28,
@@ -417,7 +471,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 29,
@@ -432,7 +488,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 30,
@@ -447,7 +505,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 31,
@@ -462,7 +522,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 32,
@@ -477,7 +539,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 33,
@@ -492,7 +556,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 34,
@@ -507,7 +573,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 35,
@@ -522,7 +590,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "TORNAR SEM EFEITO"
+"observacao": "TORNAR SEM EFEITO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 36,
@@ -537,7 +607,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 37,
@@ -552,7 +624,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 38,
@@ -567,7 +641,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 39,
@@ -582,7 +658,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": "TORNAR SEM EFEITO"
+"observacao": "TORNAR SEM EFEITO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 40,
@@ -597,7 +675,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 41,
@@ -612,7 +692,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 42,
@@ -627,7 +709,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 43,
@@ -642,7 +726,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 44,
@@ -657,7 +743,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 45,
@@ -672,7 +760,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 46,
@@ -687,7 +777,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 47,
@@ -702,7 +794,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 48,
@@ -717,7 +811,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 49,
@@ -732,7 +828,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": null
 },
 {
 "ordem": 50,
@@ -747,7 +845,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 51,
@@ -762,7 +862,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 52,
@@ -777,7 +879,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": "TORNAR SEM EFEITO"
+"observacao": "TORNAR SEM EFEITO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 53,
@@ -792,7 +896,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": null
 },
 {
 "ordem": 54,
@@ -807,7 +913,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 55,
@@ -822,7 +930,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 56,
@@ -837,7 +947,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": "TORNAR SEM EFEITO"
+"observacao": "TORNAR SEM EFEITO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 57,
@@ -852,7 +964,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 58,
@@ -867,7 +981,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 59,
@@ -882,7 +998,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 60,
@@ -897,7 +1015,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 61,
@@ -912,7 +1032,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
 },
 {
 "ordem": 62,
@@ -927,7 +1049,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "SENADO",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 63,
@@ -942,7 +1066,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 237, 12/12/2024 — CGDF"
 },
 {
 "ordem": 64,
@@ -957,7 +1083,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCU",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 65,
@@ -972,7 +1100,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "TORNAR SEM EFEITO"
+"observacao": "TORNAR SEM EFEITO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 66,
@@ -987,7 +1117,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 67,
@@ -1002,7 +1134,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "TORNAR SEM EFEITO"
+"observacao": "TORNAR SEM EFEITO",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 68,
@@ -1017,7 +1151,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 69,
@@ -1032,7 +1168,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "FOI EXONERADA - 04/05/2026"
+"observacao": "FOI EXONERADA - 04/05/2026",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 70,
@@ -1047,7 +1185,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 71,
@@ -1062,7 +1202,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 72,
@@ -1077,7 +1219,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 73,
@@ -1092,7 +1236,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 74,
@@ -1107,7 +1253,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 75,
@@ -1122,7 +1270,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 76,
@@ -1137,7 +1287,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 77,
@@ -1152,7 +1304,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 78,
@@ -1167,7 +1321,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 79,
@@ -1182,7 +1338,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 80,
@@ -1197,7 +1355,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 81,
@@ -1212,7 +1372,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 82,
@@ -1227,7 +1389,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "SENADO",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 83,
@@ -1242,7 +1406,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 84,
@@ -1257,7 +1423,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "RFB",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 85,
@@ -1272,7 +1440,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 86,
@@ -1287,7 +1457,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 87,
@@ -1302,7 +1474,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — CGDF"
 },
 {
 "ordem": 88,
@@ -1317,7 +1491,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 89,
@@ -1332,7 +1508,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 90,
@@ -1347,7 +1525,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": true,
+"nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
 },
 {
 "ordem": 91,
@@ -1362,7 +1542,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "PEDIR FIM FILA FOI NOMEADA"
+"observacao": "PEDIR FIM FILA FOI NOMEADA",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 92,
@@ -1377,7 +1559,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 93,
@@ -1392,7 +1576,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 94,
@@ -1407,7 +1593,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 95,
@@ -1422,7 +1610,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 96,
@@ -1437,7 +1627,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 97,
@@ -1452,7 +1644,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 98,
@@ -1467,7 +1661,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 99,
@@ -1482,7 +1678,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 100,
@@ -1497,7 +1695,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 101,
@@ -1512,7 +1712,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 102,
@@ -1527,7 +1729,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 103,
@@ -1542,7 +1746,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 104,
@@ -1557,7 +1763,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 105,
@@ -1572,7 +1780,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 106,
@@ -1587,7 +1797,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 107,
@@ -1602,7 +1814,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 108,
@@ -1617,7 +1831,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 109,
@@ -1632,7 +1848,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 110,
@@ -1647,7 +1865,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 111,
@@ -1662,7 +1882,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "PEDIR FIM FILA FOI NOMEADO"
+"observacao": "PEDIR FIM FILA FOI NOMEADO",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 112,
@@ -1677,7 +1899,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "00020984/2026"
+"observacao": "00020984/2026",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 113,
@@ -1692,7 +1916,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 114,
@@ -1707,7 +1933,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 115,
@@ -1722,7 +1950,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 116,
@@ -1737,7 +1967,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 117,
@@ -1752,7 +1984,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 118,
@@ -1767,7 +2001,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 119,
@@ -1782,7 +2018,9 @@
 "cgdfPo": "PO",
 "tcdfTcu": "",
 "senadoCamara": "CÂMARA",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 120,
@@ -1797,7 +2035,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCU",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 121,
@@ -1812,7 +2052,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 122,
@@ -1827,7 +2069,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 123,
@@ -1842,7 +2086,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "SENADO",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 124,
@@ -1857,7 +2103,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 125,
@@ -1872,7 +2120,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "SENADO",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 126,
@@ -1887,7 +2137,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 127,
@@ -1902,7 +2154,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 128,
@@ -1917,7 +2171,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 129,
@@ -1932,7 +2188,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 130,
@@ -1947,7 +2205,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 131,
@@ -1962,7 +2222,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 132,
@@ -1977,7 +2239,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 133,
@@ -1992,7 +2256,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 134,
@@ -2007,7 +2273,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 135,
@@ -2022,7 +2290,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 136,
@@ -2037,7 +2307,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 137,
@@ -2052,7 +2324,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 138,
@@ -2067,7 +2341,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 139,
@@ -2082,7 +2358,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 140,
@@ -2097,7 +2375,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 141,
@@ -2112,7 +2392,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 142,
@@ -2127,7 +2409,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 143,
@@ -2142,7 +2426,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 144,
@@ -2157,7 +2443,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 145,
@@ -2172,7 +2460,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 146,
@@ -2187,7 +2477,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 147,
@@ -2202,7 +2494,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 148,
@@ -2217,7 +2511,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 149,
@@ -2232,7 +2528,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 150,
@@ -2247,7 +2545,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 151,
@@ -2262,7 +2562,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 152,
@@ -2277,7 +2579,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 153,
@@ -2292,7 +2596,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 154,
@@ -2307,7 +2613,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 155,
@@ -2322,7 +2630,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 156,
@@ -2337,7 +2647,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 157,
@@ -2352,7 +2664,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 158,
@@ -2367,7 +2681,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 159,
@@ -2382,7 +2698,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "PEDIR FIM FILA FOI NOMEADA"
+"observacao": "PEDIR FIM FILA FOI NOMEADA",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 160,
@@ -2397,7 +2715,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 161,
@@ -2412,7 +2732,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 162,
@@ -2427,7 +2749,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 163,
@@ -2442,7 +2766,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 164,
@@ -2457,7 +2783,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 165,
@@ -2472,7 +2800,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 166,
@@ -2487,7 +2817,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": "PEDIR FIM FILA FOI NOMEADA"
+"observacao": "PEDIR FIM FILA FOI NOMEADA",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 167,
@@ -2502,7 +2834,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 168,
@@ -2517,7 +2851,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 169,
@@ -2532,7 +2868,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 170,
@@ -2547,7 +2885,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 171,
@@ -2562,7 +2902,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 172,
@@ -2577,7 +2919,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 173,
@@ -2592,7 +2936,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 174,
@@ -2607,7 +2953,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCU",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 175,
@@ -2622,7 +2970,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 176,
@@ -2637,7 +2987,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 177,
@@ -2652,7 +3004,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 178,
@@ -2667,7 +3021,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 179,
@@ -2682,7 +3038,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCU",
 "senadoCamara": "SENADO",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 180,
@@ -2697,7 +3055,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 181,
@@ -2712,7 +3072,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 182,
@@ -2727,7 +3089,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 183,
@@ -2742,7 +3106,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 184,
@@ -2757,7 +3123,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 185,
@@ -2772,7 +3140,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 186,
@@ -2787,7 +3157,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 187,
@@ -2802,7 +3174,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 188,
@@ -2817,7 +3191,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 189,
@@ -2832,7 +3208,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 190,
@@ -2847,7 +3225,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 191,
@@ -2862,7 +3242,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 192,
@@ -2877,7 +3259,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 193,
@@ -2892,7 +3276,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 194,
@@ -2907,7 +3293,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 195,
@@ -2922,7 +3310,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCU",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 196,
@@ -2937,7 +3327,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 197,
@@ -2952,7 +3344,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 198,
@@ -2967,7 +3361,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 199,
@@ -2982,7 +3378,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 200,
@@ -2997,7 +3395,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 201,
@@ -3012,7 +3412,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 202,
@@ -3027,7 +3429,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 203,
@@ -3042,7 +3446,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 204,
@@ -3057,7 +3463,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 205,
@@ -3072,7 +3480,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 206,
@@ -3087,7 +3497,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 207,
@@ -3102,7 +3514,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 208,
@@ -3117,7 +3531,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 209,
@@ -3132,7 +3548,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 210,
@@ -3147,7 +3565,9 @@
 "cgdfPo": "",
 "tcdfTcu": "TCDF",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 211,
@@ -3162,7 +3582,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 212,
@@ -3177,7 +3599,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 213,
@@ -3192,7 +3616,9 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 },
 {
 "ordem": 214,
@@ -3207,6 +3633,8 @@
 "cgdfPo": "",
 "tcdfTcu": "",
 "senadoCamara": "",
-"observacao": ""
+"observacao": "",
+"foiNomeado": false,
+"nomeacaoRef": null
 }
 ]
