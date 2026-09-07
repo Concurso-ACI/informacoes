@@ -55,7 +55,7 @@ function renderCargoSwitch(containerId, onChange) {
 function mapSituacao(raw) {
   const s = (raw && String(raw).trim().toUpperCase()) || '';
   if (!s) return 'Aprovados a nomear';
-  if (s === 'SIM' || s === 'SIM**') return 'SIM';
+  if (s === 'SIM' || s === 'SIM**') return 'Tomaram Posse';
   if (s.includes('FILA')) return 'FIM DE FILA';
   if (s === 'DESISTÊNCIA' || s === 'DESISTIU DO PROCESSO') return 'DESISTÊNCIA';
   return raw.trim();
@@ -64,7 +64,7 @@ function mapSituacao(raw) {
 function situacaoBadge(situacao) {
   if (!situacao) return '<span class="badge badge-neutro">—</span>';
   const s = situacao.toUpperCase();
-  if (s === 'SIM') return '<span class="badge badge-sim">SIM</span>';
+  if (s === 'SIM' || s === 'SIM**') return '<span class="badge badge-sim">Tomaram Posse</span>';
   if (s === 'FIM DE FILA' || s === 'FINAL DE FILA' || s === 'FINAL DE FILA*') return `<span class="badge badge-fimfila">${situacao}</span>`;
   if (['EXONERAÇÃO', 'DESISTÊNCIA', 'DESISTIU DO PROCESSO', 'SUBJUDICE'].includes(s))
     return `<span class="badge badge-negativo">${situacao}</span>`;
@@ -88,11 +88,17 @@ function fillSelect(select, values, allLabel) {
 
 const A_NOMEAR = '__A_NOMEAR__';
 
+function situacaoDisplayLabel(v) {
+  const s = String(v).toUpperCase();
+  if (s === 'SIM' || s === 'SIM**') return 'Tomaram Posse';
+  return v;
+}
+
 function fillSituacaoSelect(select, nomeacoes, allLabel) {
   const values = uniqueValues(nomeacoes, 'situacao');
   select.innerHTML = `<option value="">${allLabel}: todos</option>` +
     `<option value="${A_NOMEAR}">A nomear</option>` +
-    values.map(v => `<option value="${v}">${v}</option>`).join('');
+    values.map(v => `<option value="${v}">${situacaoDisplayLabel(v)}</option>`).join('');
 }
 
 // ---------- Resumo ----------
