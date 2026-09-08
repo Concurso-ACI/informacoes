@@ -78,7 +78,7 @@
 "nome": "RODRIGO DA SILVA FRANCA",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 175 de 13 de Setembro de 2010 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 10,
@@ -105,7 +105,7 @@
 "nome": "LUIZ AVELINO PERES NET",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 066 de 06 de Abril de 2011 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 13,
@@ -168,7 +168,7 @@
 "nome": "CARLOS ALBERTO ALVES PEREIRA",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 041 de 28 de Fevereiro de 2011 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 20,
@@ -177,7 +177,7 @@
 "nome": "LEONARDO SOCHA REISMAN",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 041 de 28 de Fevereiro de 2011 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 21,
@@ -186,7 +186,7 @@
 "nome": "IURI DAVID IUNES",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 228 de 29 de Novembro de 2011 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 22,
@@ -195,7 +195,7 @@
 "nome": "GUILHERME SOLINO EVELIN OLIVEIRA",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 228 de 29 de Novembro de 2011 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 23,
@@ -204,7 +204,7 @@
 "nome": "ARACI MARIA GUEDES",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 023 de 31 de Janeiro de 2012 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 24,
@@ -231,7 +231,7 @@
 "nome": "DAVID SILVEIRA SANTOS",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 164 de 16 de Agosto de 2012 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 27,
@@ -285,7 +285,7 @@
 "nome": "MARIA THEREZA SANTIAGO DRUMOND",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 136 de 11 de Julho de 2012 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 33,
@@ -294,7 +294,7 @@
 "nome": "LUIZA GONÇALVES BARCELLOS",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 164 de 16 de Agosto de 2012 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 34,
@@ -303,7 +303,7 @@
 "nome": "ANTONIO ALEXANDRE DO NASCIMENTO FILHO",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 164 de 16 de Agosto de 2012 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 35,
@@ -312,7 +312,7 @@
 "nome": "SILVESTRE HENRIQUE FERREIRA CEREJO",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 236 de 22 de Novembro de 2012 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 36,
@@ -384,7 +384,7 @@
 "nome": "SHIRLEY VIEIRA BUCAR",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 223 de 25 de Outubro de 2013 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 44,
@@ -393,7 +393,7 @@
 "nome": "ANDRÉA FONSECA VENTURA DOS SANTOS",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 228 de 01 de Novembro de 2013 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 45,
@@ -402,7 +402,7 @@
 "nome": "MATEUS DE SOUZA ROCHA",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 262 de 10 de Dezembro de 2013 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 46,
@@ -483,7 +483,7 @@
 "nome": "RODRIGO BENTO DE ANDRADE",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 097 de 16 de Maio de 2014 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 55,
@@ -492,7 +492,7 @@
 "nome": "IVO OLIVEIRA E SILVA",
 "ato": "Exoneração a Pedido",
 "publicacao": "DODF Nº 097 de 16 de Maio de 2014 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 56,
@@ -570,10 +570,10 @@
 "num": 64,
 "ano": 2015,
 "matricula": "44.135-X",
-"nome": "JUVENITA DE FÁTIMA PEREIRA SIMAS,",
+"nome": "JUVENITA DE FÁTIMA PEREIRA SIMAS",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 104 de 01 de Junho de 2015 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 65,
@@ -672,7 +672,7 @@
 "nome": "CAIO ABBOTT",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 020 de 29 de Junho de 2016 - EDICAO EXTRA",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 76,
@@ -708,7 +708,7 @@
 "nome": "ROGÉLIA BORGES DE MENESES",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 183 de 27 de Setembro de 2016 - Seção 2",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 80,
@@ -723,10 +723,10 @@
 "num": 81,
 "ano": 2017,
 "matricula": "22.721-8",
-"nome": "EUDINOR VIEIRA NASCIMENTO,",
+"nome": "EUDINOR VIEIRA NASCIMENTO",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 011 de 16 de Janeiro de 2017 - INTEGRA",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 82,
@@ -798,7 +798,7 @@
 "nome": "RITA HOSANA ADEODATO SALEM",
 "ato": "Aposentadoria",
 "publicacao": "DODF Nº 155 de 14 de Agosto de 2017 - INTEGRA",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 90,
@@ -960,7 +960,7 @@
 "nome": "JEANITTO SEBASTIÃO GENTILINI",
 "ato": "Aposentadoria",
 "publicacao": "ORDEM DE SERVIÇO Nº 111, DE 30 DE DEZEMBRO DE 2019",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 108,
@@ -969,7 +969,7 @@
 "nome": "MARCOS VAZ DE MELO MACIEL",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA No 136, DE 17 DE ABRIL DE 2019",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 109,
@@ -978,7 +978,7 @@
 "nome": "DANIEL BARAMILI FLEURY DE AMORIM",
 "ato": "Exoneração a Pedido",
 "publicacao": "ORDEM DE SERVIÇO Nº 241, DE 20 DE MAIO DE 2019",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 110,
@@ -987,7 +987,7 @@
 "nome": "NICHOLAS EXEL MOREIRA DE ANDRADE",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA DE 30 DE MARÇO DE 2020",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 111,
@@ -1014,7 +1014,7 @@
 "nome": "MURYEL HEY",
 "ato": "Desistência estágio probatório",
 "publicacao": "PORTARIA Nº 196, DE 24 DE NOVEMBRO DE 2020",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 114,
@@ -1023,7 +1023,7 @@
 "nome": "ANTONIO CARLOS COUTINHO DOS SANTOS",
 "ato": "Vacância - Falecimento",
 "publicacao": "PORTARIA Nº 213, DE 24 DE DEZEMBRO DE 2020",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
 "num": 115,
@@ -1127,15 +1127,6 @@
 {
 "num": 126,
 "ano": 2023,
-"matricula": "1.401.240-5",
-"nome": "SILESIA PALMEIRA DIAS",
-"ato": "Aposentadoria",
-"publicacao": "ORDEM DE SERVIÇO Nº 15, DE 31 DE JANEIRO DE 2023",
-"cargo": null
-},
-{
-"num": 127,
-"ano": 2023,
 "matricula": "271.966-5",
 "nome": "BRUNO PESSOA TAVARES",
 "ato": "Exoneração a Pedido",
@@ -1143,16 +1134,16 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 128,
+"num": 127,
 "ano": 2023,
 "matricula": "271.981-9",
 "nome": "DÉBORA LIMBERGER",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 440, DE 22 DE JUNHO DE 2023",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 129,
+"num": 128,
 "ano": 2023,
 "matricula": "43.722-0",
 "nome": "ALZIRA DE PAIVA BARCELLOS",
@@ -1161,7 +1152,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 130,
+"num": 129,
 "ano": 2023,
 "matricula": "44.472-3",
 "nome": "LUIZ FELIPE BALBUENA PANERAI",
@@ -1170,7 +1161,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 131,
+"num": 130,
 "ano": 2023,
 "matricula": "26.039-8",
 "nome": "SILVIO DE MORAIS VIEIRA",
@@ -1179,16 +1170,16 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 132,
+"num": 131,
 "ano": 2024,
 "matricula": "272.457-X",
 "nome": "LAECIO GUEDES DO AMARAL",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 03, DE 02 DE JANEIRO DE 2024",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 133,
+"num": 132,
 "ano": 2024,
 "matricula": "30.458-1",
 "nome": "HUMBERTO DE JESUS SIMOES FILHO",
@@ -1197,7 +1188,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 134,
+"num": 133,
 "ano": 2024,
 "matricula": "25.017-1",
 "nome": "JOSE ITAMAR FEITOSA",
@@ -1206,7 +1197,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 135,
+"num": 134,
 "ano": 2024,
 "matricula": "271.982-7",
 "nome": "DIOGO PORTELA ROCHA MARTINS",
@@ -1215,7 +1206,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 136,
+"num": 135,
 "ano": 2024,
 "matricula": "33.323-9",
 "nome": "ALDENIRA COELHO DE CARVALHO",
@@ -1224,16 +1215,16 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 137,
+"num": 136,
 "ano": 2024,
 "matricula": "31.183-9",
 "nome": "CLAUDIA DE SOUZA MOREIRA",
 "ato": "Aposentadoria",
 "publicacao": "ORDEM DE SERVIÇO Nº 72, DE 31 DE JULHO DE 2024",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 138,
+"num": 137,
 "ano": 2024,
 "matricula": "44.134-1",
 "nome": "ELAINE SOUZA ROSA",
@@ -1242,7 +1233,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 139,
+"num": 138,
 "ano": 2024,
 "matricula": "44.116-3",
 "nome": "GISELE ALVES DE REZENDE",
@@ -1251,7 +1242,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 140,
+"num": 139,
 "ano": 2024,
 "matricula": "33.713-7",
 "nome": "LILIAN MARIA DAS GRAÇAS BARROS DE MELO",
@@ -1260,7 +1251,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 141,
+"num": 140,
 "ano": 2025,
 "matricula": "24.179-2",
 "nome": "HUMBERTO PEREIRA DE MATOS",
@@ -1269,7 +1260,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 142,
+"num": 141,
 "ano": 2025,
 "matricula": "44.089-2",
 "nome": "KARLA GUIMARAES TEIXEIRA",
@@ -1278,7 +1269,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 143,
+"num": 142,
 "ano": 2025,
 "matricula": "40.015-7",
 "nome": "MARCO AURELIO PINTO GOULART",
@@ -1287,34 +1278,34 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 144,
+"num": 143,
 "ano": 2025,
 "matricula": "285.824-X",
 "nome": "FABRICIO RESENDE NAVES",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 677, DE 3 DE SETEMBRO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 145,
+"num": 144,
 "ano": 2025,
 "matricula": "285.807-X",
 "nome": "MICHELLE GONÇALVES",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 67, DE 11 DE MARÇO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 146,
+"num": 145,
 "ano": 2025,
 "matricula": "285.828-2",
 "nome": "NATÁLIA PRADO GOMES",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 83, DE 25 DE MARÇO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 147,
+"num": 146,
 "ano": 2025,
 "matricula": "42.549-4",
 "nome": "CLAUDIA AZEVEDO CORTES",
@@ -1323,7 +1314,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 148,
+"num": 147,
 "ano": 2025,
 "matricula": "46.155-5",
 "nome": "HELIO ARAUJO FERREIRA",
@@ -1332,7 +1323,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 149,
+"num": 148,
 "ano": 2025,
 "matricula": "44.080-9",
 "nome": "JOSEILDA MENDES DE MELLO",
@@ -1341,7 +1332,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 150,
+"num": 149,
 "ano": 2025,
 "matricula": "42.330-0",
 "nome": "LUCIANA PAZ MAGALHAES BARRETO",
@@ -1350,7 +1341,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 151,
+"num": 150,
 "ano": 2025,
 "matricula": "91.905-5",
 "nome": "ELEN DE OLIVEIRA",
@@ -1359,7 +1350,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 152,
+"num": 151,
 "ano": 2025,
 "matricula": "30.853-6",
 "nome": "ISMAEL DA SILVA BARAO",
@@ -1368,7 +1359,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 153,
+"num": 152,
 "ano": 2025,
 "matricula": "33.266-6",
 "nome": "JULIO CESAR LIMA",
@@ -1377,7 +1368,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 154,
+"num": 153,
 "ano": 2025,
 "matricula": "44.008-6",
 "nome": "RAYDER LIMA BARRETO",
@@ -1386,16 +1377,16 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 155,
+"num": 154,
 "ano": 2025,
 "matricula": "285.892-4",
 "nome": "JOÃO VICTOR ALVES DA SILVA",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 247, DE 25 DE JULHO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 156,
+"num": 155,
 "ano": 2025,
 "matricula": "42.588-5",
 "nome": "BELMAR CORADO VALENTE",
@@ -1404,7 +1395,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 157,
+"num": 156,
 "ano": 2025,
 "matricula": "46.159-8",
 "nome": "ADRIANE FREITAS DE OLIVEIRA COTIAS E SILVA",
@@ -1413,7 +1404,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 158,
+"num": 157,
 "ano": 2025,
 "matricula": "43.178-8",
 "nome": "DENISE PIERRE",
@@ -1422,7 +1413,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 159,
+"num": 158,
 "ano": 2025,
 "matricula": "42.430-7",
 "nome": "ALFREDO ALVES COSTA JUNIOR",
@@ -1431,7 +1422,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 160,
+"num": 159,
 "ano": 2025,
 "matricula": "44.013-2",
 "nome": "DILVAN RODRIGUES SILVA",
@@ -1440,52 +1431,52 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 161,
+"num": 160,
 "ano": 2025,
 "matricula": "44.114-7",
-"nome": "JOSE AGMAR DE SOUZ",
+"nome": "JOSE AGMAR DE SOUZA",
 "ato": "Aposentadoria",
 "publicacao": "ORDEM DE SERVIÇO Nº 113, DE 30 DE SETEMBRO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 162,
+"num": 161,
 "ano": 2025,
 "matricula": "285.815-0",
 "nome": "AMANDA SANTOS SILVA",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 355, DE 26 DE SETEMBRO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 163,
+"num": 162,
 "ano": 2025,
 "matricula": "285.755-3",
 "nome": "JOSÉ MARIA NOVA DA COSTA NETO",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 827, DE 10 DE OUTUBRO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 164,
+"num": 163,
 "ano": 2025,
 "matricula": "285.829-0",
 "nome": "LETÍCIA LALESKA OLIVEIRA DA SILVA",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 450, DE 18 DE NOVEMBRO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 165,
+"num": 164,
 "ano": 2025,
 "matricula": "285.844-4",
 "nome": "TITO LIVIO DO NASCIMENTO ERCULINO",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 1.018, DE 19 DE DEZEMBRO DE 2025",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 166,
+"num": 165,
 "ano": 2026,
 "matricula": "44.592-4",
 "nome": "ELIZAI DA SILVA NUNES",
@@ -1494,7 +1485,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 167,
+"num": 166,
 "ano": 2026,
 "matricula": "25.810-5",
 "nome": "IVANILDA SOUSA PEREIRA DE MESQUITA",
@@ -1503,7 +1494,7 @@
 "cargo": "INSPETOR"
 },
 {
-"num": 168,
+"num": 167,
 "ano": 2026,
 "matricula": "44.167-8",
 "nome": "MARIA AUXILIADORA FERNANDES",
@@ -1512,7 +1503,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 169,
+"num": 168,
 "ano": 2026,
 "matricula": "42.417-X",
 "nome": "ADAO NUNES DA SILVA",
@@ -1521,7 +1512,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 170,
+"num": 169,
 "ano": 2026,
 "matricula": "40.566-3",
 "nome": "RAFAEL RIBEIRO DO AMARAL",
@@ -1530,7 +1521,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 171,
+"num": 170,
 "ano": 2026,
 "matricula": "26.676-0",
 "nome": "ANTONIO ADAILDO DOS SANTOS RODRIGUES",
@@ -1539,7 +1530,7 @@
 "cargo": "INSPETOR"
 },
 {
-"num": 172,
+"num": 171,
 "ano": 2026,
 "matricula": "193.238-1",
 "nome": "MARCIO BRUNO CARNEIRO MONTEIRO",
@@ -1548,7 +1539,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 173,
+"num": 172,
 "ano": 2026,
 "matricula": "44.279-8",
 "nome": "VICTOR ALEXANDRE DE MEDEIROS LUCAFO",
@@ -1557,7 +1548,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 174,
+"num": 173,
 "ano": 2026,
 "matricula": "30.806-4",
 "nome": "ORLANDO SILVA ILORCA",
@@ -1566,25 +1557,25 @@
 "cargo": "INSPETOR"
 },
 {
-"num": 175,
+"num": 174,
 "ano": 2026,
 "matricula": "287.500-4",
 "nome": "SAMILLA RIBEIRO DE SOUZA",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 169, DE 29 DE ABRIL DE 2026",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 176,
+"num": 175,
 "ano": 2026,
 "matricula": "285.900-9",
 "nome": "HAYK CARVALHO SILVA",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 317, DE 06 DE MAIO DE 2026",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 177,
+"num": 176,
 "ano": 2026,
 "matricula": "285.813-4",
 "nome": "FERNANDA NIGRO LAPIETRA",
@@ -1593,34 +1584,34 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 178,
+"num": 177,
 "ano": 2026,
 "matricula": "285.782-0",
 "nome": "CAROLINA SOARES DUARTE FEITOZA",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 316, DE 06 DE MAIO DE 2026",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 179,
+"num": 178,
 "ano": 2026,
 "matricula": "285.767-7",
 "nome": "SÁLVIO MEDEIROS COSTA NETO",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 166, DE 28 DE ABRIL DE 2026",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 180,
+"num": 179,
 "ano": 2026,
 "matricula": "287.508-X",
 "nome": "PAULO EGIDIO ALVES DE OLIVEIRA",
 "ato": "Exoneração a Pedido",
 "publicacao": "PORTARIA Nº 367, DE 22 DE MAIO DE 2026",
-"cargo": null
+"cargo": "AUDITOR"
 },
 {
-"num": 181,
+"num": 180,
 "ano": 2026,
 "matricula": "285.754-5",
 "nome": "LUCAS RODRIGUES DAMASCENO",
@@ -1629,7 +1620,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 182,
+"num": 181,
 "ano": 2026,
 "matricula": "285.779-0",
 "nome": "ANGELA BISPO DA SILVA",
@@ -1638,7 +1629,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 183,
+"num": 182,
 "ano": 2026,
 "matricula": "44.087-6",
 "nome": "ARDSON CARTAXO GOMES",
@@ -1647,7 +1638,7 @@
 "cargo": "AUDITOR"
 },
 {
-"num": 184,
+"num": 183,
 "ano": 2026,
 "matricula": "192.800-7",
 "nome": "CLAUDIA MARIA VIDERES TRAJANO",
