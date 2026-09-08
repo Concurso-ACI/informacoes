@@ -13,8 +13,8 @@
 12;12;AMPLA;7;10003737;Samuel Gomes Quintanilha;238.99;SIM;;;;;
 13;13;NEGRO;3;10003353;Alexandre de Araujo Martins;224.35;SIM;;;;;
 14;14;AMPLA;8;10005424;Tchielo Lisboa Camboim;236.76;SIM;;;;;
-15;15;PCD;3;10003706;Fernanda Nigro Lapietra;215.07;SIM;;;TCDF;;PROCURAR EXONERAÇÃO
-16;16;AMPLA;9;10003685;Salvio Medeiros Costa Neto;236.17;SIM;;PO;TCDF;;PROCURAR EXONERAÇÃO
+15;15;PCD;3;10003706;Fernanda Nigro Lapietra;215.07;EXONERAÇÃO;;;TCDF;;PROCURAR EXONERAÇÃO
+16;16;AMPLA;9;10003685;Salvio Medeiros Costa Neto;236.17;EXONERAÇÃO;;PO;TCDF;;PROCURAR EXONERAÇÃO
 17;17;AMPLA;10;10000196;Erika Rayanne Silva Borges;235.6;SIM;;PO;;;
 18;18;NEGRO;4;10001025;Rafael Tavares Ferreira Lima;219.35;SIM;;PO;;;
 19;19;AMPLA;11;10006654;Leonardo Azevedo Marchioni;234.69;SIM;;;;;
@@ -22,16 +22,16 @@
 21;21;HIPO;2;10000958;Juliano Rodrigues de Oliveira;190.05;SIM;;;;;
 22;22;AMPLA;12;10003752;Salomao Vinicius Aragao da Cruz;234.52;SIM;;;;;
 23;23;NEGRO;5;10008138;Renan Gomes Sant Anna;218;SIM;TRANSITO JULGADO;PO;;;
-24;24;AMPLA;13;10003206;Carolina Soares Duarte Feitoza;234.42;SIM;;;TCDF;;
+24;24;AMPLA;13;10003206;Carolina Soares Duarte Feitoza;234.42;EXONERAÇÃO;;;TCDF;;
 25;25;PCD;5;10000153;Shayene de Mendonca Soares;209.88;SIM;;;;;
 26;26;AMPLA;14;10005327;Ariadne Macedo dos Santos;234.3;FIM DE FILA;;;;SENADO;
 27;27;AMPLA;15;10004730;Roberto Miyazaki Ramos;234.05;SIM;;;;;
-28;28;NEGRO;6;10007436;Leticia Laleska Oliveira da Silva;216.71;SIM;;PO;;;
+28;28;NEGRO;6;10007436;Leticia Laleska Oliveira da Silva;216.71;EXONERAÇÃO;;PO;;;
 29;29;AMPLA;16;10003119;Jose Maria Nova da Costa Neto;233.98;EXONERAÇÃO;;;TCDF;;
 30;30;PCD;6;10005288;Tulio Torres do Val;208.41;SIM;;PO;;;
 31;31;HIPO;3;10000496;Daniel Pereira Lima Souza;178.98;SIM;;;;;
 32;32;AMPLA;17;10007463;Matheus Luan Froz Gomes;233.86;FIM DE FILA;;;;;
-33;33;NEGRO;7;10000455;Lucas Rodrigues Damasceno;215.3;SIM;;;;;
+33;33;NEGRO;7;10000455;Lucas Rodrigues Damasceno;215.3;EXONERAÇÃO;;;;;
 34;34;AMPLA;18;10000028;Lucas Nunes de Barros;233.85;SIM;;;;;
 35;35;PCD;7;10002831;Alinne Patricia de Andrade Carvalho e Silva;205.12;FIM DE FILA;SUBJUDICE;PO;TCDF;;TORNAR SEM EFEITO
 36;36;AMPLA;19;10008320;Gilberto de Castro Vasconcelos Neto;233;SIM;;;;;
@@ -53,7 +53,7 @@
 52;52;AMPLA;29;10001360;Andre Medeiros Freire;229.21;SIM;;PO;;;TORNAR SEM EFEITO
 53;53;NEGRO;11;10000500;Bruno Alves de Santana e Silva;210.55;SIM;;;;;
 54;54;AMPLA;30;10004619;Fabricio Resende Naves;229.15;FIM DE FILA;;PO;TCDF;;
-55;55;PCD;11;10003475;Angela Bispo da Silva;180.3;SIM;;;;;
+55;55;PCD;11;10003475;Angela Bispo da Silva;180.3;EXONERAÇÃO;;;;;
 56;56;AMPLA;31;10003369;Camila Oliveira Santos;228.85;FIM DE FILA;;;;;TORNAR SEM EFEITO
 57;57;AMPLA;32;10001229;Pedro Henrique Teodoro Pereira;228.78;FIM DE FILA;;;TCDF;;
 58;58;NEGRO;12;10005589;Stefany Valentim Mendes da Silva;209.25;FIM DE FILA;;;;;
@@ -65,9 +65,9 @@
 64;64;AMPLA;36;10005904;Alexandre Andrade da Silva Machado;227.94;FIM DE FILA;;;TCU;;
 65;65;PCD;13;10000439;Julemar Antonio de Amorim;178.6;SIM;;;TCDF;;TORNAR SEM EFEITO
 66;66;AMPLA;37;10001353;Priscilla Goncalves Marques;227.68;SIM;;;;;
-67;67;AMPLA;38;10006963;Paulo Egidio Alves de Oliveira;227.65;SIM;;PO;TCDF;;TORNAR SEM EFEITO
+67;67;AMPLA;38;10006963;Paulo Egidio Alves de Oliveira;227.65;FIM DE FILA;;PO;TCDF;;TORNAR SEM EFEITO
 68;68;NEGRO;14;10003646;Italo Rafael Almeida do Nascimento;207.93;FIM DE FILA;;;;;
-69;69;AMPLA;39;10002405;Samilla Ribeiro de Souza;227.58;SIM;;;TCDF;;FOI EXONERADA - 04/05/2026
+69;69;AMPLA;39;10002405;Samilla Ribeiro de Souza;227.58;EXONERAÇÃO;;;TCDF;;FOI EXONERADA - 04/05/2026
 70;70;PCD;14;10001876;Elton Kleber da Silva;167.13;SIM;;;;;
 71;71;AMPLA;40;10007235;Christian do Lago Freitas Bezerra de Melo;227.5;FIM DE FILA;;PO;;;
 72;72;AMPLA;41;10005463;Isadora Cidrao Campos;227.36;SIM;;;;;
@@ -172,7 +172,7 @@
 171;171;AMPLA;120;10005484;Phillipi Barack Carvalho de Macedo;213.02;;;;;;
 172;172;AMPLA;121;10001860;Priscila Dias de Almeida;212.96;;;;;;
 173;173;NEGRO;35;10006038;Erivelton Maximo Fonseca;188.97;;;;;;
-174;174;AMPLA;122;10001259;Fabiana Braga Lopes;212.81;;;;TCU;;
+174;174;AMPLA;122;10001259;Fabiana Braga Lopes;212.81;FIM DE FILA;;;TCU;;
 175;175;AMPLA;123;10007063;Marcelo Ferreira Hallac;212.7;;;;;;
 176;176;AMPLA;124;10003749;Priscila Aragao da Cruz;211.97;FIM DE FILA;;;TCDF;;
 177;177;AMPLA;125;10001303;Hugo da Costa Melo Gomes Ferreira;211.8;;;;;;

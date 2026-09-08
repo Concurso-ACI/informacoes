@@ -322,11 +322,15 @@ function renderVacanciasFilters() {
   el.innerHTML = `
     <select id="v-ano"></select>
     <select id="v-ato"></select>
+    <select id="v-cargo"></select>
     <button id="v-clear">Limpar filtros</button>
     <button id="v-export" class="primary">Exportar CSV</button>
   `;
   fillSelect(document.getElementById('v-ano'), uniqueValues(DATA.vacancias, 'ano').map(String), 'Ano');
   fillSelect(document.getElementById('v-ato'), uniqueValues(DATA.vacancias, 'ato'), 'Tipo de ato');
+  const cargoSelect = document.getElementById('v-cargo');
+  fillSelect(cargoSelect, uniqueValues(DATA.vacancias, 'cargo'), 'Cargo');
+  cargoSelect.insertAdjacentHTML('beforeend', '<option value="__NAO_IDENTIFICADO__">Não identificado</option>');
   el.querySelectorAll('select').forEach(input => input.addEventListener('input', renderVacanciasTable));
   document.getElementById('v-clear').addEventListener('click', () => {
     el.querySelectorAll('select').forEach(s => s.value = '');
@@ -338,11 +342,21 @@ function renderVacanciasFilters() {
 function getFilteredVacancias() {
   const ano = document.getElementById('v-ano').value;
   const ato = document.getElementById('v-ato').value;
+  const cargo = document.getElementById('v-cargo').value;
   return DATA.vacancias.filter(v => {
     if (ano && String(v.ano) !== ano) return false;
     if (ato && v.ato !== ato) return false;
+    if (cargo === '__NAO_IDENTIFICADO__') { if (v.cargo) return false; }
+    else if (cargo && v.cargo !== cargo) return false;
     return true;
   });
+}
+
+function cargoAuditorInspetorBadge(cargo) {
+  if (cargo === 'AUDITOR') return '<span class="badge badge-sim">Auditor</span>';
+  if (cargo === 'INSPETOR') return '<span class="badge badge-fimfila">Inspetor</span>';
+  if (cargo === 'AMBÍGUO') return '<span class="badge badge-negativo">Ambíguo</span>';
+  return '<span class="badge badge-neutro">Não identificado</span>';
 }
 
 function renderVacanciasTable() {
@@ -356,6 +370,7 @@ function renderVacanciasTable() {
       <td>${v.ano}</td>
       <td>${v.matricula}</td>
       <td>${v.nome}</td>
+      <td>${cargoAuditorInspetorBadge(v.cargo)}</td>
       <td>${v.ato}</td>
       <td>${v.publicacao}</td>
     </tr>`).join('');
