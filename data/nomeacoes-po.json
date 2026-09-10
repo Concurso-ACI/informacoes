@@ -137,7 +137,7 @@
 "notaCF": 46,
 "notaFinal": 263.67,
 "ordem": 11,
-"situacao": "FINAL DE FILA",
+"situacao": "DESISTÊNCIA",
 "observacao": "SIM",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
@@ -150,7 +150,7 @@
 "notaCF": 41,
 "notaFinal": 242.03,
 "ordem": 12,
-"situacao": "FINAL DE FILA",
+"situacao": "DESISTÊNCIA",
 "observacao": "SIM",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
@@ -241,7 +241,7 @@
 "notaCF": 47,
 "notaFinal": 262.27,
 "ordem": 19,
-"situacao": "FINAL DE FILA",
+"situacao": "DESISTÊNCIA",
 "observacao": "FC",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 237, 12/12/2024 — SEEC/Economia"
@@ -332,7 +332,7 @@
 "notaCF": 43,
 "notaFinal": 229.03,
 "ordem": 26,
-"situacao": "FIM DE FILA",
+"situacao": "DESISTÊNCIA",
 "observacao": "Nomeado no TCDF",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
@@ -371,7 +371,7 @@
 "notaCF": 40,
 "notaFinal": 244.54,
 "ordem": 29,
-"situacao": "FINAL DE FILA*",
+"situacao": "DESISTÊNCIA",
 "observacao": "SIM / Empossado em FC",
 "foiNomeado": false,
 "nomeacaoRef": null
@@ -384,7 +384,7 @@
 "notaCF": 48,
 "notaFinal": 273.53,
 "ordem": 30,
-"situacao": "FIM DE FILA",
+"situacao": "DESISTÊNCIA",
 "observacao": "SIM / Empossada no TCDF",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia (exaurimento da lista)"
@@ -410,7 +410,7 @@
 "notaCF": 46,
 "notaFinal": 267.16,
 "ordem": 32,
-"situacao": "FIM DE FILA",
+"situacao": "DESISTÊNCIA",
 "observacao": "Câmara / Empossado na Câmara",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia (exaurimento da lista)"
