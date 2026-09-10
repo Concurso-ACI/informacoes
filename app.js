@@ -416,7 +416,7 @@ function renderSemEfeitoTable() {
       <td>${s.especialidade}</td>
       <td>${s.vaga}</td>
       <td>${s.nome}</td>
-      <td><a href="${s.link}" target="_blank" rel="noopener">DODF</a></td>
+      <td>${s.link ? `<a href="${s.link}" target="_blank" rel="noopener">DODF</a>` : 'Não houve publicação'}</td>
     </tr>`).join('');
 }
 
