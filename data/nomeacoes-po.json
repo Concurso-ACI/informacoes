@@ -332,7 +332,7 @@
 "notaCF": 43,
 "notaFinal": 229.03,
 "ordem": 26,
-"situacao": "SIM",
+"situacao": "FIM DE FILA",
 "observacao": "Nomeado no TCDF",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia"
@@ -384,7 +384,7 @@
 "notaCF": 48,
 "notaFinal": 273.53,
 "ordem": 30,
-"situacao": "SIM**",
+"situacao": "FIM DE FILA",
 "observacao": "SIM / Empossada no TCDF",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia (exaurimento da lista)"
@@ -410,7 +410,7 @@
 "notaCF": 46,
 "notaFinal": 267.16,
 "ordem": 32,
-"situacao": "SIM**",
+"situacao": "FIM DE FILA",
 "observacao": "Câmara / Empossado na Câmara",
 "foiNomeado": true,
 "nomeacaoRef": "DODF 024, 27/03/2026 — SEEC/Economia (exaurimento da lista)"
