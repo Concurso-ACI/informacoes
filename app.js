@@ -1,8 +1,8 @@
-let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [], ocupacaoCargos: [], marcosOcupacao: [], tutorialFimFila: null };
+let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [], ocupacaoCargos: [], marcosOcupacao: [], tutorialFimFila: null, informacoesPosse: null };
 let CARGO = 'FC'; // 'FC' or 'PO'
 
 async function loadData() {
-  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao, tutorialFimFila] = await Promise.all([
+  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao, tutorialFimFila, informacoesPosse] = await Promise.all([
     fetch('data/nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/nomeacoes-po.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/vacancias.json', { cache: 'no-store' }).then(r => r.json()),
@@ -13,8 +13,9 @@ async function loadData() {
     fetch('data/ocupacao-cargos.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/marcos-ocupacao.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/tutorial-fim-fila.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/informacoes-posse.json', { cache: 'no-store' }).then(r => r.json()),
   ]);
-  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao, tutorialFimFila };
+  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao, tutorialFimFila, informacoesPosse };
 }
 
 function currentNomeacoes() {
@@ -696,6 +697,24 @@ function renderTutorial() {
   `;
 }
 
+// ---------- Informações para Posse ----------
+function renderInformacoesPosse() {
+  const d = DATA.informacoesPosse;
+  if (!d) return;
+
+  const secoesHtml = d.secoes.map(s => `
+    <div class="panel-box defesa-card">
+      <h3>${s.orgao}</h3>
+      <p class="defesa-resumo">${s.descricao}</p>
+      <a href="${s.link}" target="_blank" rel="noopener">${s.linkLabel} →</a>
+    </div>`).join('');
+
+  document.getElementById('posse-content').innerHTML = `
+    <p class="impacto-note">${d.subtitulo}</p>
+    <div class="defesa-grid">${secoesHtml}</div>
+  `;
+}
+
 function refreshAll() {
   renderResumo();
   renderNomeacaoFilters();
@@ -718,6 +737,7 @@ async function init() {
   renderDefesaTecnica();
   renderOcupacao();
   renderTutorial();
+  renderInformacoesPosse();
 }
 
 init();
