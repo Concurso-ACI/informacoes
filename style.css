@@ -413,6 +413,18 @@ h3 { color: var(--gold-soft); }
   font-size: 0.9rem;
   line-height: 1.5;
 }
+.passo-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.passo-img {
+  max-width: 520px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
 .passo-num {
   background: var(--panel-alt);
   border: 1px solid var(--gold-dark);

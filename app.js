@@ -659,7 +659,13 @@ function renderTutorial() {
   `).join('');
 
   const passosHtml = t.virtual.passos.map((p, i) => `
-    <li><span class="passo-num">${i + 1}</span><span>${p}</span></li>
+    <li>
+      <span class="passo-num">${i + 1}</span>
+      <div class="passo-body">
+        <span>${p.texto}</span>
+        ${p.imagem ? `<img class="passo-img" src="${p.imagem}" alt="Ilustração do passo ${i + 1}">` : ''}
+      </div>
+    </li>
   `).join('');
 
   document.getElementById('tutorial-content').innerHTML = `

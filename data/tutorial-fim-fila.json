@@ -14,12 +14,12 @@
   "virtual": {
     "titulo": "Via Virtual (e-Protocolo)",
     "passos": [
-      "Preencha o formulário (Desistência ou Fim de Fila) — baixe o modelo acima.",
-      "Assine o formulário, junte via e-Protocolo e inclua seu RG.",
-      "Acesse o e-Protocolo com seu cadastro gov.br.",
-      "Crie um Novo Protocolo, selecione o órgão e preencha o requerimento.",
-      "Anexe o formulário assinado e o documento com foto (apenas PDF, máx. 20MB, até 20 arquivos por protocolo).",
-      "Aperte em Salvar e não esqueça de guardar o número do protocolo."
+      { "texto": "Preencha o formulário (Desistência ou Fim de Fila) — baixe o modelo acima." },
+      { "texto": "Assine o formulário, junte via e-Protocolo e inclua seu RG." },
+      { "texto": "Acesse o e-Protocolo com seu cadastro gov.br." },
+      { "texto": "Crie um Novo Protocolo, selecione o órgão e preencha o requerimento.", "imagem": "assets/tutorial-step-novo-protocolo.jpg" },
+      { "texto": "Anexe o formulário assinado e o documento com foto (apenas PDF, máx. 20MB, até 20 arquivos por protocolo) e aperte em Salvar.", "imagem": "assets/tutorial-step-anexar-salvar.jpg" },
+      { "texto": "Não esqueça de guardar o número do protocolo." }
     ],
     "linkProtocolo": "https://sistemas.df.gov.br/Protocolo/Login"
   },
