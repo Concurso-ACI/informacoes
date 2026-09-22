@@ -419,6 +419,14 @@ h3 { color: var(--gold-soft); }
   gap: 8px;
   flex: 1;
 }
+.passo-nota {
+  background: rgba(212,175,55,0.1);
+  border: 1px solid var(--gold-dark);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  color: var(--gold-soft);
+}
 .passo-img {
   max-width: 520px;
   width: 100%;

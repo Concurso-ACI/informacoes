@@ -663,6 +663,7 @@ function renderTutorial() {
       <span class="passo-num">${i + 1}</span>
       <div class="passo-body">
         <span>${p.texto}</span>
+        ${p.nota ? `<div class="passo-nota">⚠️ ${p.nota}</div>` : ''}
         ${p.imagem ? `<img class="passo-img" src="${p.imagem}" alt="Ilustração do passo ${i + 1}">` : ''}
       </div>
     </li>
