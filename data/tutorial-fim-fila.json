@@ -17,7 +17,7 @@
       { "texto": "Preencha o formulário (Desistência ou Fim de Fila) — baixe o modelo acima." },
       { "texto": "Assine o formulário, junte via e-Protocolo e inclua seu RG." },
       { "texto": "Acesse o e-Protocolo com seu cadastro gov.br." },
-      { "texto": "Crie um Novo Protocolo, selecione o órgão e preencha o requerimento.", "nota": "No campo Órgão, escolha Secretaria de Estado de Economia — é lá que esses documentos são processados.", "imagem": "assets/tutorial-step-novo-protocolo.jpg" },
+      { "texto": "Crie um Novo Protocolo, selecione o órgão e preencha o requerimento.", "nota": "No campo Órgão, escolha a opção SEEC - Secretaria de Estado de Economia do Distrito Federal.", "imagem": "assets/tutorial-step-novo-protocolo.jpg" },
       { "texto": "Anexe o formulário assinado e o documento com foto (apenas PDF, máx. 20MB, até 20 arquivos por protocolo) e aperte em Salvar.", "imagem": "assets/tutorial-step-anexar-salvar.jpg" },
       { "texto": "Não esqueça de guardar o número do protocolo." }
     ],
