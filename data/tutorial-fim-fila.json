@@ -1,0 +1,34 @@
+{
+  "titulo": "Tutorial Fim de Fila / Desistência",
+  "subtitulo": "Passo a passo para protocolar o Termo de Opção de Final de Fila ou o Termo de Desistência Definitiva.",
+  "formularios": [
+    {
+      "nome": "Termo de Opção de Final de Fila",
+      "link": "https://economia.df.gov.br/documents/d/seec/Termo-de-Opcao-de-Final-de-Fila-Formulario"
+    },
+    {
+      "nome": "Termo de Desistência Definitiva",
+      "link": "https://economia.df.gov.br/documents/d/seec/Termo-de-Desistencia-Definitiva-Formulario"
+    }
+  ],
+  "virtual": {
+    "titulo": "Via Virtual (e-Protocolo)",
+    "passos": [
+      "Preencha o formulário (Desistência ou Fim de Fila) — baixe o modelo acima.",
+      "Assine o formulário, junte via e-Protocolo e inclua seu RG.",
+      "Acesse o e-Protocolo com seu cadastro gov.br.",
+      "Crie um Novo Protocolo, selecione o órgão e preencha o requerimento.",
+      "Anexe o formulário assinado e o documento com foto (apenas PDF, máx. 20MB, até 20 arquivos por protocolo).",
+      "Aperte em Salvar e não esqueça de guardar o número do protocolo."
+    ],
+    "linkProtocolo": "https://sistemas.df.gov.br/Protocolo/Login"
+  },
+  "presencial": {
+    "titulo": "Via Presencial",
+    "descricao": "Protocolo da SEEC — unidade de recebimento e distribuição de documentos destinados à SEEC, que funciona também como Protocolo Central dos órgãos instalados no Ed. Anexo do Palácio do Buriti.",
+    "orgao": "Gerência de Gestão de Protocolo e Sistema Eletrônico de Informações — GPROT",
+    "endereco": "Protocolo Central Ed. Anexo — Palácio do Buriti, Térreo, sala 106 — Brasília — DF — CEP: 70075-900",
+    "email": "protocolo@economia.df.gov.br",
+    "telefone": "(61) 3414 6109"
+  }
+}

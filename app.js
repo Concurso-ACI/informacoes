@@ -1,8 +1,8 @@
-let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [], ocupacaoCargos: [], marcosOcupacao: [] };
+let DATA = { nomeacoesFc: [], nomeacoesPo: [], vacancias: [], semEfeito: [], impacto: null, defesaTecnica: [], dodfNomeacoes: [], ocupacaoCargos: [], marcosOcupacao: [], tutorialFimFila: null };
 let CARGO = 'FC'; // 'FC' or 'PO'
 
 async function loadData() {
-  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao] = await Promise.all([
+  const [nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao, tutorialFimFila] = await Promise.all([
     fetch('data/nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/nomeacoes-po.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/vacancias.json', { cache: 'no-store' }).then(r => r.json()),
@@ -12,8 +12,9 @@ async function loadData() {
     fetch('data/dodf-nomeacoes.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/ocupacao-cargos.json', { cache: 'no-store' }).then(r => r.json()),
     fetch('data/marcos-ocupacao.json', { cache: 'no-store' }).then(r => r.json()),
+    fetch('data/tutorial-fim-fila.json', { cache: 'no-store' }).then(r => r.json()),
   ]);
-  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao };
+  DATA = { nomeacoesFc, nomeacoesPo, vacancias, semEfeito, impacto, defesaTecnica, dodfNomeacoes, ocupacaoCargos, marcosOcupacao, tutorialFimFila };
 }
 
 function currentNomeacoes() {
@@ -648,6 +649,46 @@ function exportCsv(rows, filename) {
   URL.revokeObjectURL(url);
 }
 
+// ---------- Tutorial Fim de Fila / Desistência ----------
+function renderTutorial() {
+  const t = DATA.tutorialFimFila;
+  if (!t) return;
+
+  const formulariosHtml = t.formularios.map(f => `
+    <a class="tutorial-form-link" href="${f.link}" target="_blank" rel="noopener">📄 ${f.nome}</a>
+  `).join('');
+
+  const passosHtml = t.virtual.passos.map((p, i) => `
+    <li><span class="passo-num">${i + 1}</span><span>${p}</span></li>
+  `).join('');
+
+  document.getElementById('tutorial-content').innerHTML = `
+    <p class="impacto-note">${t.subtitulo}</p>
+
+    <div class="panel-box">
+      <h3>Formulários</h3>
+      <div class="tutorial-forms">${formulariosHtml}</div>
+    </div>
+
+    <div class="panel-box">
+      <h3>${t.virtual.titulo}</h3>
+      <ol class="tutorial-passos">${passosHtml}</ol>
+      <a href="${t.virtual.linkProtocolo}" target="_blank" rel="noopener" class="tutorial-form-link">🔗 Acessar e-Protocolo</a>
+    </div>
+
+    <div class="panel-box">
+      <h3>${t.presencial.titulo}</h3>
+      <p class="marco-desc">${t.presencial.descricao}</p>
+      <div class="tutorial-contato">
+        <div><strong>${t.presencial.orgao}</strong></div>
+        <div>${t.presencial.endereco}</div>
+        <div>E-mail: ${t.presencial.email}</div>
+        <div>Telefone: ${t.presencial.telefone}</div>
+      </div>
+    </div>
+  `;
+}
+
 function refreshAll() {
   renderResumo();
   renderNomeacaoFilters();
@@ -669,6 +710,7 @@ async function init() {
   renderImpacto();
   renderDefesaTecnica();
   renderOcupacao();
+  renderTutorial();
 }
 
 init();

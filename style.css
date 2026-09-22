@@ -380,6 +380,60 @@ h3 { color: var(--gold-soft); }
 }
 .marco-conclusao p:last-child { margin-bottom: 0; }
 
+.tutorial-forms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+.tutorial-form-link {
+  display: inline-block;
+  padding: 10px 16px;
+  background: var(--gold);
+  color: #14171f;
+  font-weight: 700;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+.tutorial-form-link:hover { filter: brightness(1.08); }
+.tutorial-passos {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tutorial-passos li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.passo-num {
+  background: var(--panel-alt);
+  border: 1px solid var(--gold-dark);
+  color: var(--gold-soft);
+  font-weight: 700;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.78rem;
+}
+.tutorial-contato {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
 .ocupacao-svg {
   width: 100%;
   height: auto;
